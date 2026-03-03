@@ -1,14 +1,11 @@
 {
-  "runAt": "2026-03-03T19:48:45.182469+00:00",
+  "runAt": "2026-03-03T20:01:13.615194+00:00",
   "counts": {
-    "new": 2,
+    "new": 0,
     "updated": 0,
     "dropped": 0
   },
-  "new": [
-    "url::https://thestar.com.my/aseanplus/aseanplus-news/2025/10/26/lao-handicraft-festival-ties-tradition-to-tourism",
-    "url::https://thestar.com.my/aseanplus/aseanplus-news/2026/02/07/laos-aims-to-advance-modern-cross-border-trade"
-  ],
+  "new": [],
   "updated": [],
   "dropped": []
 }

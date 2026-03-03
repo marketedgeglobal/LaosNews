@@ -1,6 +1,6 @@
 {
-  "runAt": "2026-03-03T19:48:45.182469+00:00",
-  "totalItems": 15,
+  "runAt": "2026-03-03T20:01:13.615194+00:00",
+  "totalItems": 16,
   "sectors": [
     {
       "name": "Extractives & Mining",
@@ -106,8 +106,8 @@
       "synth": {
         "bullets": [
           "Officials reported Yet the outlook to 2035 is not one of simple expansion.",
-          "Field updates show The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an\u2026",
-          "Separate sources indicate The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported\u2026"
+          "Field updates show Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the\u2026",
+          "Separate sources indicate The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in\u2026"
         ],
         "drivers": [
           "Oil production/export"
@@ -266,6 +266,49 @@
               "reflects both hydrological risk and financial constraints. Laos\u2019 sovereign debt, reported at $12.6bn in the report,\u2026",
               "17.1% over 2025\u20132035. Onshore wind led this shift in 2025, accounting for 10.5% of total installed capacity after 1.5GW\u2026"
             ]
+          },
+          "icons": [
+            "TRADE"
+          ]
+        },
+        {
+          "id": "809ad179c387",
+          "title": "Indian solar shares slump as US duties threaten bigger tariff hit",
+          "url": "https://www.reuters.com/sustainability/climate-energy/indias-solar-manufacturer-stocks-tank-after-preliminary-us-duties-imports-2026-02-25/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-24",
+          "sourcePublishedAt": "2026-02-24",
+          "sourceTier": "Tier 1",
+          "sector": "Energy",
+          "snippet": "Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the latest in a decade-long series of levies ...",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": false,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the latest in a decade-long series of levies ...",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the latest in a decade-long series of levies",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around energy.",
+            "confidence": "HIGH",
+            "evidence": []
           },
           "icons": [
             "TRADE"
@@ -666,7 +709,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -728,9 +771,7 @@
               "to provide a deeper understanding of Lao traditions are scheduled for October 23. Another highlight of the event will\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     },
@@ -1127,7 +1168,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -1159,9 +1200,7 @@
               "and increase efficiency at border crossings. Laos had been expected to achieve 100 percent implementation of the\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     }
