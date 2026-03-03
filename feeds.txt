@@ -68,6 +68,40 @@ Bing News – Laos finance investment - https://www.bing.com/news/search?q=laos+
 Bloomberg – Economics - https://feeds.bloomberg.com/economics/news.rss
 
 # ============================
+# ASEAN ECONOMIC COMMUNITY INTEGRATION
+# ============================
+
+Google News – Laos ASEAN Economic Community - https://news.google.com/rss/search?q=Laos+ASEAN+Economic+Community+integration&hl=en-US&gl=US&ceid=US:en
+Google News – Laos industry linkages exports - https://news.google.com/rss/search?q=Laos+industry+linkages+exports&hl=en-US&gl=US&ceid=US:en
+Google News – Laos trade agreements customs - https://news.google.com/rss/search?q=Laos+trade+agreement+customs+facilitation&hl=en-US&gl=US&ceid=US:en
+Google News – Laos ASEAN single window - https://news.google.com/rss/search?q=Laos+ASEAN+single+window&hl=en-US&gl=US&ceid=US:en
+Google News – Laos digital trade data infrastructure - https://news.google.com/rss/search?q=Laos+digital+trade+data+infrastructure&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos ASEAN trade integration - https://www.bing.com/news/search?q=laos+asean+trade+integration&format=rss
+Google News – site:asean.org Laos trade - https://news.google.com/rss/search?q=site:asean.org+Laos+trade+facilitation&hl=en-US&gl=US&ceid=US:en
+
+# ============================
+# ENERGY (LAOS)
+# ============================
+
+Google News – Laos energy sector - https://news.google.com/rss/search?q=Laos+energy+sector+policy&hl=en-US&gl=US&ceid=US:en
+Google News – Laos electricity grid transmission - https://news.google.com/rss/search?q=Laos+electricity+grid+transmission&hl=en-US&gl=US&ceid=US:en
+Google News – Laos hydropower exports Thailand Vietnam - https://news.google.com/rss/search?q=Laos+hydropower+exports+Thailand+Vietnam&hl=en-US&gl=US&ceid=US:en
+Google News – Laos renewable solar wind - https://news.google.com/rss/search?q=Laos+renewable+solar+wind+project&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos energy power generation - https://www.bing.com/news/search?q=laos+energy+power+generation&format=rss
+Google News – site:reuters.com Laos energy - https://news.google.com/rss/search?q=site:reuters.com+Laos+energy&hl=en-US&gl=US&ceid=US:en
+
+# ============================
+# TEXTILE & HANDICRAFT (LAOS)
+# ============================
+
+Google News – Laos textile garment exports - https://news.google.com/rss/search?q=Laos+textile+garment+exports&hl=en-US&gl=US&ceid=US:en
+Google News – Laos handicraft artisan exports - https://news.google.com/rss/search?q=Laos+handicraft+artisan+exports&hl=en-US&gl=US&ceid=US:en
+Google News – Laos silk weaving industry - https://news.google.com/rss/search?q=Laos+silk+weaving+industry&hl=en-US&gl=US&ceid=US:en
+Google News – Laos apparel factory labor - https://news.google.com/rss/search?q=Laos+apparel+factory+labor&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos textile handicraft - https://www.bing.com/news/search?q=laos+textile+handicraft&format=rss
+Google News – site:vientianetimes.org.la Laos textile - https://news.google.com/rss/search?q=site:vientianetimes.org.la+Laos+textile+handicraft&hl=en-US&gl=US&ceid=US:en
+
+# ============================
 # ENGLISH-LANGUAGE BOOSTER QUERIES
 # ============================
 

@@ -1,6 +1,6 @@
 {
-  "runAt": "2026-03-03T19:23:22.461900+00:00",
-  "totalItems": 7,
+  "runAt": "2026-03-03T19:34:12.428630+00:00",
+  "totalItems": 13,
   "sectors": [
     {
       "name": "Extractives & Mining",
@@ -39,7 +39,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -96,7 +96,398 @@
             ]
           },
           "icons": [
-            "ENERGY",
+            "ENERGY"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "synth": {
+        "bullets": [
+          "Officials reported Yet the outlook to 2035 is not one of simple expansion.",
+          "Field updates show The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an\u2026",
+          "Separate sources indicate The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported\u2026"
+        ],
+        "drivers": [
+          "Oil production/export"
+        ],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "712c9f936420",
+          "title": "Onshore wind and solar PV to drive renewables development in Laos",
+          "url": "https://finance.yahoo.com/news/onshore-wind-solar-pv-drive-160950243.html",
+          "publisher": "finance.yahoo.com",
+          "publishedAt": "2026-02-27",
+          "sourcePublishedAt": "2026-02-27",
+          "sourceTier": "Tier 3",
+          "sector": "Energy",
+          "snippet": "Laos is looking to move away from coal-based power generation, with a focus on renewables development, especially onshore wind and solar PV.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": false,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "0%",
+                "context": "reports Community Personal Finance My Money Credit cards Compare Credit Cards Best 0% APR cards Best balance transfer\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "27",
+                "context": "Tax refund status Student loans Federal vs. private How to apply FAFSA 2026-27 Student loan assistance Personal loans\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "Laos is looking to move away from coal-based power generation, with a focus on renewables development, especially onshore wind and solar PV.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Private How to apply FAFSA 2026-27 Student loan assistance Personal loans Best personal loans Improve credit score How to get approved Videos Latest Editor's picks Trending stocks Investing insights Live shows Morning\u2026",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: near-term decision quality now depends more on monitoring counterpart behavior than on headline announcements alone, with 0% as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "reports Community Personal Finance My Money Credit cards Compare Credit Cards Best 0% APR cards Best balance transfer\u2026",
+              "Tax refund status Student loans Federal vs. private How to apply FAFSA 2026-27 Student loan assistance Personal loans\u2026"
+            ]
+          },
+          "icons": []
+        },
+        {
+          "id": "1c7773dcf3f4",
+          "title": "Hydropower anchors Laos\u2019 power expansion as exports surge and diversification gathers pace",
+          "url": "https://www.waterpowermagazine.com/analysis/hydropower-anchors-laos-power-expansion-as-exports-surge-and-diversification-gathers-pace/",
+          "publisher": "waterpowermagazine.com",
+          "publishedAt": "2026-02-26",
+          "sourcePublishedAt": "2026-02-26",
+          "sourceTier": "Tier 3",
+          "sector": "Energy",
+          "snippet": "Laos is set to expand hydropower capacity to more than 15GW by 2035, reinforcing its role as Southeast Asia\u2019s leading electricity exporter.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [
+            "Oil production/export"
+          ],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": false,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Macro and finance",
+                "value": "$12.6bn",
+                "context": "reflects both hydrological risk and financial constraints. Laos\u2019 sovereign debt, reported at $12.6bn in the report,\u2026",
+                "score": 5
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "10.5%",
+                "context": "17.1% over 2025\u20132035. Onshore wind led this shift in 2025, accounting for 10.5% of total installed capacity after 1.5GW\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "72.7%",
+                "context": "Laos Power Outlook, Update 2026 by GlobalData , large hydropower accounted for 72.7% of installed capacity in 2025 and\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "7.4%",
+                "context": "from 7.3GW in 2020 to 10.4GW in 2025, reflecting a CAGR of 7.4% over the period. Growth continues, albeit at a slower\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "40%",
+                "context": "to support exports to Thailand, Vietnam and Cambodia. Hydropower contributes an estimated 30\u201340% of national exports,\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "59.1%",
+                "context": "and solar, hydropower is expected to retain 53.1% of installed capacity and 59.1% of generation in 2035, according to\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "71.5%",
+                "context": ", large hydropower accounted for 72.7% of installed capacity in 2025 and 71.5% of annual generation, underlining the\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "80%",
+                "context": "Seasonal risk and system constraints Hydropower\u2019s dominance also creates structural risk. Approximately 80% of Laos\u2019\u2026",
+                "score": 2
+              }
+            ]
+          },
+          "preview": "Hydropower remains the backbone of Laos\u2019 power sector and the foundation of its export-driven electricity strategy. According to Laos Power Outlook, Update 2026 by GlobalData, large hydropower accounted for 72.7% of installed capacity in 2025 and 71.5% of annual generation, underlining the technology\u2019s continued dominance.",
+          "preview_source": "trafilatura",
+          "language": "en",
+          "insight2": {
+            "s1": "Yet the outlook to 2035 is not one of simple expansion",
+            "s2": "Instead, Laos is navigating a more complex landscape: managing dry-season supply risk, responding to sovereign debt pressures, expanding cross-border trade, and accelerating wind and solar deployment",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in energy, with $12.6bn as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "reflects both hydrological risk and financial constraints. Laos\u2019 sovereign debt, reported at $12.6bn in the report,\u2026",
+              "17.1% over 2025\u20132035. Onshore wind led this shift in 2025, accounting for 10.5% of total installed capacity after 1.5GW\u2026"
+            ]
+          },
+          "icons": [
+            "TRADE"
+          ]
+        },
+        {
+          "id": "5abe0a62d560",
+          "title": "US sets preliminary duties on solar imports from India, Indonesia and Laos",
+          "url": "https://www.reuters.com/sustainability/climate-energy/us-sets-preliminary-duties-solar-imports-india-indonesia-laos-2026-02-24/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-24",
+          "sourcePublishedAt": "2026-02-24",
+          "sourceTier": "Tier 1",
+          "sector": "Energy",
+          "snippet": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": false,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around energy.",
+            "confidence": "HIGH",
+            "evidence": []
+          },
+          "icons": [
+            "TRADE"
+          ]
+        },
+        {
+          "id": "1b049cdedc3e",
+          "title": "U.S. trade action deals blow to Indian solar makers",
+          "url": "https://www.reuters.com/sustainability/climate-energy/us-trade-action-deals-blow-indian-solar-makers-2026-02-25/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-24",
+          "sourcePublishedAt": "2026-02-24",
+          "sourceTier": "Tier 1",
+          "sector": "Energy",
+          "snippet": "India's plans to strengthen its position in the U.S. solar market face a setback after Washington moved to impose steep countervailing duties on solar cells and panels shipped from some Asian hubs, ...",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Positive",
+          "materiality": 2,
+          "risk_score": 20,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "India's plans to strengthen its position in the U.S. solar market face a setback after Washington moved to impose steep countervailing duties on solar cells and panels shipped from some Asian hubs, ...",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "India's plans to strengthen its position in the U.S. solar market face a setback after Washington moved to impose steep countervailing duties on solar cells and panels shipped from some Asian hubs,",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: the political economy signal now points to tighter bargaining space around energy decisions.",
+            "confidence": "HIGH",
+            "evidence": []
+          },
+          "icons": [
+            "NEW"
+          ]
+        },
+        {
+          "id": "1a40803d3d7d",
+          "title": "US to make tariff decision on solar panels from India, Indonesia and Laos",
+          "url": "https://www.reuters.com/sustainability/climate-energy/us-make-tariff-decision-solar-panels-india-indonesia-laos-2026-02-23/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-23",
+          "sourcePublishedAt": "2026-02-23",
+          "sourceTier": "Tier 1",
+          "sector": "Energy",
+          "snippet": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": false,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around energy.",
+            "confidence": "HIGH",
+            "evidence": []
+          },
+          "icons": [
+            "TRADE"
+          ]
+        },
+        {
+          "id": "dd28fa704498",
+          "title": "EDL, Korea\u2019s CTE Consortium ink deal on 100MW solar farm in Oudomxay",
+          "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_032_EDL_y26.php",
+          "publisher": "vientianetimes.org.la",
+          "publishedAt": "2026-02-15",
+          "sourcePublishedAt": "2026-02-15",
+          "sourceTier": "Tier 3",
+          "sector": "Energy",
+          "snippet": "Deputy Managing Director of EDL Mr Souliya Malavong ( right ) and CEO of CTE Co., Ltd., Mr Yong Seok Yang ( left ), exchange agreements after signing them last Wednesday.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Positive",
+          "materiality": 1,
+          "risk_score": 5,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Sanctions and state revenue",
+                "value": "150",
+                "context": "generating revenue from electricity sales. The plant will be built on a 150-hectare site near the Namkon Reservoir, an\u2026",
+                "score": 3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "7",
+                "context": "Mr Yang noted that the initiative aligns with Sustainable Development Goal (SDG) 7 on affordable and clean energy, Goal\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "120",
+                "context": "600 jobs will be created during the construction phase, with more than 120 positions anticipated during operation and\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "600",
+                "context": "schools and vocational training institutions are also expected to train more than 600 renewable energy professionals.\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "16",
+                "context": "firms in Laos\u2019 renewable energy sector. By Advertorial Desk (Latest Update February 16, 2026 ) Newspaper Subscription\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "13",
+                "context": "with Sustainable Development Goal (SDG) 7 on affordable and clean energy, Goal 13 on climate action, and Goal 17 on\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "17",
+                "context": "on affordable and clean energy, Goal 13 on climate action, and Goal 17 on partnerships for these goals. He said the\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "600",
+                "context": "with power to be exported to Vietnam. It is envisaged that about 600 jobs will be created during the construction\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "Deputy Managing Director of EDL Mr Souliya Malavong ( right ) and CEO of CTE Co., Ltd., Mr Yong Seok Yang ( left ), exchange agreements after signing them last Wednesday.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Vientiane Times Vientiane Times -->",
+            "s2": "EDL, Korea\u2019s CTE Consortium ink deal on 100MW solar farm in Oudomxay Electricit\u00e9 du Laos (EDL) and Korea\u2019s CTE Consortium on Wednesday (February 11) signed a Memorandum of Agreement on a feasibility study for the 100MW\u2026",
+            "s3": "Implication: execution risk should be re-priced as administrative and political constraints converge in energy, with 150 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "generating revenue from electricity sales. The plant will be built on a 150-hectare site near the Namkon Reservoir, an\u2026",
+              "Mr Yang noted that the initiative aligns with Sustainable Development Goal (SDG) 7 on affordable and clean energy, Goal\u2026"
+            ]
+          },
+          "icons": [
             "NEW"
           ]
         }
@@ -144,7 +535,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -188,9 +579,7 @@
               "plan, unveiled in the Lao capital Vientiane on Monday (March 2), outlines 20 strategic action areas and 62 priority\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         },
         {
           "id": "a82c8c307936",
@@ -215,7 +604,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -240,45 +629,68 @@
               "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
-    },
-    {
-      "name": "Health & Water",
-      "synth": {
-        "bullets": [
-          "Coverage was limited in this sector during the current cycle.",
-          "No concrete multi-source development met the threshold for a stronger synthesis bullet.",
-          "Watch the next run for confirmed operational or policy updates tied to this sector."
-        ],
-        "drivers": [],
-        "watch": [
-          "Regulatory updates",
-          "Partner statements",
-          "Execution constraints"
-        ]
-      },
-      "items": []
     },
     {
       "name": "Education & Workforce",
       "synth": {
         "bullets": [
-          "Coverage was limited in this sector during the current cycle.",
-          "No concrete multi-source development met the threshold for a stronger synthesis bullet.",
-          "Watch the next run for confirmed operational or policy updates tied to this sector."
+          "Officials reported Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think is the central development flagged in the publication.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
         ],
         "drivers": [],
         "watch": [
-          "Regulatory updates",
-          "Partner statements",
-          "Execution constraints"
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
         ]
       },
-      "items": []
+      "items": [
+        {
+          "id": "b9daf6c5684e",
+          "title": "Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think",
+          "url": "https://www.forbes.com/sites/mattgandal/2026/02/12/workforce-pell-is-worth-it-but-not-for-the-reasons-many-may-think/",
+          "publisher": "forbes.com",
+          "publishedAt": "2026-02-12",
+          "sourcePublishedAt": "2026-02-12",
+          "sourceTier": "Tier 3",
+          "sector": "Education & Workforce",
+          "snippet": "This cycle brought a concrete update on Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think.",
+          "snippet_status": "",
+          "summary_confidence": "Low (Template fallback)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "This cycle brought a concrete update on Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think is the central development flagged in the publication.",
+            "s2": "The report frames this as an active shift with potential effects on operating conditions and counterpart behavior.",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in education & workforce.",
+            "confidence": "LOW",
+            "evidence": []
+          },
+          "icons": [
+            "NEW"
+          ]
+        }
+      ]
     },
     {
       "name": "Finance & Investment",
@@ -319,7 +731,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -362,13 +774,13 @@
               },
               {
                 "label": "Policy or market figure",
-                "value": "856",
-                "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
-                "score": -3
+                "value": "20",
+                "context": "pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane.",
+                "score": 0
               },
               {
                 "label": "Policy or market figure",
-                "value": "21",
+                "value": "856",
                 "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
                 "score": -3
               }
@@ -388,8 +800,7 @@
             ]
           },
           "icons": [
-            "TRADE",
-            "NEW"
+            "TRADE"
           ]
         },
         {
@@ -413,7 +824,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -481,21 +892,21 @@
               "have reached 4.8 per cent in 2025, surpassing the 2021\u20132025 average of 4.2 per cent. Inflation fell to 5.6 per cent in\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     },
     {
-      "name": "Cross-cutting / Policy / Risk",
+      "name": "ASEAN Economic Community Integration",
       "synth": {
         "bullets": [
-          "Officials reported The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an\u2026",
-          "Field updates show The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from\u2026",
+          "Officials reported 12, 2026 HIGHLIGHTS Downstream project success can catalyse upstream policy reform.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
           "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
         ],
-        "drivers": [],
+        "drivers": [
+          "Regulatory reform"
+        ],
         "watch": [
           "Regulatory deadlines",
           "Executive decrees",
@@ -504,26 +915,25 @@
       },
       "items": [
         {
-          "id": "5abe0a62d560",
-          "title": "US sets preliminary duties on solar imports from India, Indonesia and Laos",
-          "url": "https://www.reuters.com/sustainability/climate-energy/us-sets-preliminary-duties-solar-imports-india-indonesia-laos-2026-02-24/",
-          "publisher": "reuters.com",
-          "publishedAt": "2026-02-24",
-          "sourcePublishedAt": "2026-02-24",
-          "sourceTier": "Tier 1",
-          "sector": "Cross-cutting / Policy / Risk",
-          "snippet": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+          "id": "adf2c849ef5b",
+          "title": "Bankable pathways to scale Asean power integration",
+          "url": "https://www.eco-business.com/press-releases/bankable-pathways-to-scale-asean-power-integration/",
+          "publisher": "eco-business.com",
+          "publishedAt": "2026-02-11",
+          "sourcePublishedAt": "2026-02-12",
+          "sourceTier": "Tier 3",
+          "sector": "ASEAN Economic Community Integration",
+          "snippet": "Asean\u2019s decarbonisation challenge is both urgent and structural. Electricity demand is set to more than double by 2050, yet fossil fuels still dominate the generation mix and progress in renewable deployment has not translated into an economy-wide emissions decline.",
           "snippet_status": "",
           "summary_confidence": "High (Feed snippet)",
-          "event_types": [],
+          "event_types": [
+            "Regulatory reform"
+          ],
           "sentiment": "Neutral",
           "materiality": 2,
           "risk_score": 30,
           "entities": [],
-          "tags": [
-            "Infrastructure",
-            "Policy"
-          ],
+          "tags": [],
           "flags": {
             "risk": false,
             "opportunity": false,
@@ -531,65 +941,71 @@
             "updated": false
           },
           "metrics": {
-            "numbers": []
+            "numbers": [
+              {
+                "label": "Health signal",
+                "value": "7",
+                "context": "Poverty 2. Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10.\u2026",
+                "score": 3
+              },
+              {
+                "label": "Health signal",
+                "value": "8",
+                "context": "Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10. Inequality\u2026",
+                "score": 3
+              },
+              {
+                "label": "Health signal",
+                "value": "5",
+                "context": "Goals Show more SDGs 1. Poverty 2. Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic\u2026",
+                "score": 3
+              },
+              {
+                "label": "Health signal",
+                "value": "6",
+                "context": "SDGs 1. Poverty 2. Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9.\u2026",
+                "score": 3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "14",
+                "context": "Economic growth 9. Infrastructure 10. Inequality 11. Cities 12. Consumption 13. Climate 14. Oceans 15. Biodiversity 16.\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "17",
+                "context": "11. Cities 12. Consumption 13. Climate 14. Oceans 15. Biodiversity 16. Peace 17. Partnerships Regions Show more Regions\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "11",
+                "context": "equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10. Inequality 11. Cities 12. Consumption 13. Climate\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "9",
+                "context": "4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10. Inequality 11. Cities 12.\u2026",
+                "score": 0
+              }
+            ]
           },
-          "preview": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
-          "preview_source": "fallback_summary",
+          "preview": "- Downstream project success can catalyse upstream policy reform. Bottom-up approaches through demonstration projects can shift government perceptions.",
+          "preview_source": "trafilatura",
           "language": "en",
           "insight2": {
-            "s1": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the",
-            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
-            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around cross-cutting / policy / risk.",
+            "s1": "12, 2026 HIGHLIGHTS Downstream project success can catalyse upstream policy reform",
+            "s2": "Bottom-up approaches through demonstration projects can shift government perceptions",
+            "s3": "Implication: near-term decision quality now depends more on monitoring counterpart behavior than on headline announcements alone, with 7 as a measurable reference point for scenario tracking.",
             "confidence": "HIGH",
-            "evidence": []
+            "evidence": [
+              "Poverty 2. Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10.\u2026",
+              "Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10. Inequality\u2026"
+            ]
           },
           "icons": [
-            "TRADE",
-            "NEW"
-          ]
-        },
-        {
-          "id": "1a40803d3d7d",
-          "title": "US to make tariff decision on solar panels from India, Indonesia and Laos",
-          "url": "https://www.reuters.com/sustainability/climate-energy/us-make-tariff-decision-solar-panels-india-indonesia-laos-2026-02-23/",
-          "publisher": "reuters.com",
-          "publishedAt": "2026-02-23",
-          "sourcePublishedAt": "2026-02-23",
-          "sourceTier": "Tier 1",
-          "sector": "Cross-cutting / Policy / Risk",
-          "snippet": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
-          "snippet_status": "",
-          "summary_confidence": "High (Feed snippet)",
-          "event_types": [],
-          "sentiment": "Neutral",
-          "materiality": 2,
-          "risk_score": 30,
-          "entities": [],
-          "tags": [
-            "Infrastructure",
-            "Policy"
-          ],
-          "flags": {
-            "risk": false,
-            "opportunity": false,
-            "new": true,
-            "updated": false
-          },
-          "metrics": {
-            "numbers": []
-          },
-          "preview": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
-          "preview_source": "fallback_summary",
-          "language": "en",
-          "insight2": {
-            "s1": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia",
-            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
-            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around cross-cutting / policy / risk.",
-            "confidence": "HIGH",
-            "evidence": []
-          },
-          "icons": [
-            "TRADE",
             "NEW"
           ]
         }

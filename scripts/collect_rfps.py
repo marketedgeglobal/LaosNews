@@ -700,6 +700,29 @@ def _title_mentions_venezuela(title: str) -> bool:
     )
 
 
+def _source_is_laos_focused(source_url: str) -> bool:
+    source = (source_url or "").lower()
+    if not source:
+        return False
+    return (
+        "laos" in source
+        or "lao%20" in source
+        or "lao+" in source
+        or "country/lao" in source
+        or "q=lao" in source
+    )
+
+
+def _has_sector_keyword_signal(entry: dict, cfg: dict) -> bool:
+    text = _text(entry)
+    sectors = cfg.get("sectors", {}) or {}
+    for sector_data in sectors.values():
+        include_terms = [t.lower() for t in sector_data.get("include", [])]
+        if _match_terms(text, include_terms) > 0:
+            return True
+    return False
+
+
 def passes_exclude_filter(entry: dict, exclude_terms: list[str]) -> bool:
     text = _text(entry)
     return not any(t.lower() in text for t in exclude_terms)
@@ -722,7 +745,11 @@ def filter_entries(
         source_url = str(e.get("source_url", "") or "")
         title_text = str(e.get("title", "") or "")
 
-        if not _title_mentions_venezuela(title_text):
+        title_mentions_laos = _title_mentions_venezuela(title_text)
+        source_mentions_laos = _source_is_laos_focused(source_url)
+        has_sector_signal = _has_sector_keyword_signal(e, cfg)
+
+        if not title_mentions_laos and not (source_mentions_laos and has_sector_signal):
             _log_rejection(
                 source_url,
                 title_text,
@@ -1144,11 +1171,14 @@ def _sector_hint_from_source(entry: dict, cfg: dict) -> str | None:
     section_order = cfg.get("brief_sections", [])
     valid_sections = set(section_order)
     hint_map = {
-        "Extractives & Mining": ["oil", "gas", "pdvsa", "mining", "orinoco", "energy"],
+        "Extractives & Mining": ["mining", "copper", "gold", "potash", "bauxite", "rare-earth"],
+        "Energy": ["energy", "power", "electricity", "hydropower", "dam", "grid", "renewable", "solar", "wind"],
         "Food & Agriculture": ["agriculture", "food", "fertilizer", "irrigation"],
+        "Textile & Handicraft": ["textile", "garment", "apparel", "handicraft", "artisan", "weaving", "silk", "handloom", "craft", "loom", "textile+", "garment+", "handicraft+"],
         "Health & Water": ["health", "hospital", "dengue", "malaria", "water", "sanitation"],
         "Education & Workforce": ["education", "schools", "teachers", "workforce", "vocational", "university", "students", "jobs", "labor"],
         "Finance & Investment": ["banking", "inflation", "exchange", "debt", "bonds", "investment", "fdi"],
+        "ASEAN Economic Community Integration": ["asean", "aec", "atiga", "rcep", "single-window", "single+window", "trade", "customs", "exports", "digital", "infrastructure", "corridor", "industry+linkages", "trade+agreement", "trade+facilitation"],
     }
 
     for label, hints in hint_map.items():
@@ -2765,11 +2795,14 @@ def build_markdown(entries: list[dict], cfg: dict, run_meta: dict) -> str:
     sector_briefs = run_meta.get("sector_briefs", {}) or {}
     timeline_rows = run_meta.get("timeline_rows", []) or []
     section_descriptions = {
-        "Extractives & Mining": "Oil, gas, mining activity, concessions, production shifts, and energy security developments.",
+        "Extractives & Mining": "Mining activity, concessions, exploration, and mineral output developments in Laos.",
+        "Energy": "Power generation, hydropower, grid transmission, renewables, and regional electricity trade developments.",
         "Food & Agriculture": "Food supply, agricultural output, imports, and nutrition-related policy and market developments.",
+        "Textile & Handicraft": "Textile, garment, weaving, and handicraft value-chain developments tied to production and exports.",
         "Health & Water": "Public health, hospitals, outbreaks, water access, sanitation, and infrastructure reliability updates.",
         "Education & Workforce": "Schools, labor conditions, student activity, workforce policy, and human capital developments.",
         "Finance & Investment": "Inflation, exchange rates, debt, sanctions, investment flows, and financial policy signals.",
+        "ASEAN Economic Community Integration": "ASEAN integration, industry linkages, exports, trade agreements, single window, digital data, and infrastructure updates.",
         "Cross-cutting / Policy / Risk": "Governance, diplomacy, legal shifts, sanctions context, and systemic risk signals.",
     }
 
@@ -3006,6 +3039,8 @@ def build_markdown(entries: list[dict], cfg: dict, run_meta: dict) -> str:
 
     for section in section_order:
         section_entries = grouped.get(section, [])
+        if not section_entries:
+            continue
         section_id = re.sub(r"[^a-z0-9]+", "-", section.lower()).strip("-")
         lines.append(f'<section class="vzla-section" id="{section_id}" data-sector-header="{escape(section)}">')
         lines.append(f"### {section}")
@@ -3015,13 +3050,6 @@ def build_markdown(entries: list[dict], cfg: dict, run_meta: dict) -> str:
         )
 
         lines.append('<div class="sector-cards">')
-        if not section_entries:
-            lines.append('<article class="story-card"><p class="story-summary">No qualifying stories available this cycle.</p></article>')
-            lines.append("</div>")
-            lines.append("</section>")
-            lines.append("")
-            continue
-
         top_three = _sort_entries_for_sector(section_entries)[:3]
         for idx, e in enumerate(top_three):
             title = e.get("title", "(no title)")
@@ -3613,6 +3641,8 @@ def run(config_path: str = CONFIG_PATH, feeds_path: str = FEEDS_PATH) -> None:
             key=_normalized_item_sort_key,
             reverse=True,
         )[:section_item_limit]
+        if not items_for_section:
+            continue
         synth = _build_sector_synth(section, items_for_section)
         sector_synth[section] = synth
         sectors_payload.append({"name": section, "synth": synth, "items": items_for_section})

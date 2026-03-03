@@ -1,11 +1,16 @@
 {
-  "runAt": "2026-03-03T19:23:22.461900+00:00",
+  "runAt": "2026-03-03T19:34:12.428630+00:00",
   "counts": {
-    "new": 0,
+    "new": 4,
     "updated": 0,
     "dropped": 0
   },
-  "new": [],
+  "new": [
+    "url::https://forbes.com/sites/mattgandal/2026/02/12/workforce-pell-is-worth-it-but-not-for-the-reasons-many-may-think",
+    "url::https://eco-business.com/press-releases/bankable-pathways-to-scale-asean-power-integration",
+    "url::https://reuters.com/sustainability/climate-energy/us-trade-action-deals-blow-indian-solar-makers-2026-02-25",
+    "url::https://vientianetimes.org.la/freefreenews/freecontent_032_EDL_y26.php"
+  ],
   "updated": [],
   "dropped": []
 }

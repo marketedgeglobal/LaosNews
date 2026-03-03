@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-03-03T19:23:22.461900+00:00",
+  "run_at": "2026-03-03T19:34:12.428630+00:00",
   "trend_summary": {
-    "freq_7d": 7.0,
+    "freq_7d": 13.0,
     "intensity_30d": "\u2192 Stable",
     "direction_90d": "\u2192 Stable"
   },
@@ -80,35 +80,36 @@
       ]
     },
     "Governance": {
-      "health": 7,
-      "summary": "This week in governance, signal flow is concentrated around cross-cutting policy signals. Risk pressure is mixed with an average score of 30/100. Positive momentum appears in 0 items, while 0 items indicate material downside pressure. Decision context should balance regulatory trajectory, operational feasibility, and partner exposure. Near-term positioning favors scenario planning with trigger-based execution gates.",
+      "health": 5,
+      "summary": "Coverage is limited this cycle; monitor for confirmation in the next run.",
       "risks": [
-        "US sets preliminary duties on solar imports from India, Indonesia and Laos",
-        "US to make tariff decision on solar panels from India, Indonesia and Laos"
+        "Signal density is low",
+        "Data confidence is constrained",
+        "Cross-check with primary sources"
       ],
       "opportunities": [
-        "US sets preliminary duties on solar imports from India, Indonesia and Laos",
-        "US to make tariff decision on solar panels from India, Indonesia and Laos",
-        "Monitor policy/market openings tied to licensing, contracts, or donor leverage."
+        "Watch for early policy movement",
+        "Track counterpart statements",
+        "Review exposure scenarios"
       ],
       "watch": [
-        "Executive decrees and regulatory circulars",
-        "Sanctions/license language shifts",
-        "Operational updates from Tier 1 and Tier 2 sources"
+        "Next weekly cycle",
+        "Regulatory updates",
+        "Source confirmation"
       ]
     },
     "Infrastructure": {
       "health": 7,
-      "summary": "This week in infrastructure, signal flow is concentrated around cross-cutting policy signals. Risk pressure is mixed with an average score of 30/100. Positive momentum appears in 0 items, while 0 items indicate material downside pressure. Decision context should balance regulatory trajectory, operational feasibility, and partner exposure. Near-term positioning favors scenario planning with trigger-based execution gates.",
+      "summary": "This week in infrastructure, signal flow is concentrated around Oil production/export. Risk pressure is mixed with an average score of 30/100. Positive momentum appears in 0 items, while 0 items indicate material downside pressure. Decision context should balance regulatory trajectory, operational feasibility, and partner exposure. Near-term positioning favors scenario planning with trigger-based execution gates.",
       "risks": [
-        "Abacus Capital launches to boost capital market, expand investment opportunities in Laos",
+        "Hydropower anchors Laos\u2019 power expansion as exports surge and diversification gathers pace",
         "US sets preliminary duties on solar imports from India, Indonesia and Laos",
-        "US to make tariff decision on solar panels from India, Indonesia and Laos"
+        "Abacus Capital launches to boost capital market, expand investment opportunities in Laos"
       ],
       "opportunities": [
-        "Abacus Capital launches to boost capital market, expand investment opportunities in Laos",
+        "Hydropower anchors Laos\u2019 power expansion as exports surge and diversification gathers pace",
         "US sets preliminary duties on solar imports from India, Indonesia and Laos",
-        "US to make tariff decision on solar panels from India, Indonesia and Laos"
+        "Abacus Capital launches to boost capital market, expand investment opportunities in Laos"
       ],
       "watch": [
         "Executive decrees and regulatory circulars",

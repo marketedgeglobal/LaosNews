@@ -37,10 +37,13 @@ selection:
 
 brief_sections:
   - "Extractives & Mining"
+  - "Energy"
   - "Food & Agriculture"
+  - "Textile & Handicraft"
   - "Health & Water"
   - "Education & Workforce"
   - "Finance & Investment"
+  - "ASEAN Economic Community Integration"
   - "Cross-cutting / Policy / Risk"
 
 # --- Core Entity Filters ---
@@ -85,13 +88,6 @@ sectors:
       - potash
       - "rare earth"
       - "sepon mine"
-      - hydropower
-      - "nam theun"
-      - "don sahong"
-      - "xayaburi dam"
-      - electricity
-      - "power generation"
-      - energy
       - "mineral exploration"
       - "mining concession"
     opportunity:
@@ -118,6 +114,97 @@ sectors:
       - embargo
       - seizure
       - "asset freeze"
+
+  energy:
+    label: "Energy"
+    include:
+      - energy
+      - electricity
+      - power
+      - "power generation"
+      - hydropower
+      - "nam theun"
+      - "nam ngam"
+      - "don sahong"
+      - "xayaburi dam"
+      - "grid"
+      - transmission
+      - "renewable"
+      - solar
+      - wind
+      - battery
+      - "cross-border power trade"
+      - "energy ministry"
+      - "edl"
+      - "edl-gen"
+    opportunity:
+      - tender
+      - procurement
+      - concession
+      - ppa
+      - "power purchase agreement"
+      - "epc contract"
+      - "grid expansion"
+      - "generation project"
+      - "project finance"
+      - "strategic partner"
+    risk:
+      - outage
+      - curtailment
+      - blackout
+      - drought
+      - delay
+      - sanctions
+
+  textile_handicraft:
+    label: "Textile & Handicraft"
+    include:
+      - textile
+      - textiles
+      - garment
+      - garments
+      - apparel
+      - fashion
+      - weaving
+      - weaver
+      - silk
+      - cotton
+      - yarn
+      - handicraft
+      - handicrafts
+      - handcraft
+      - handcrafts
+      - craft
+      - crafts
+      - handloom
+      - artisan
+      - artisans
+      - "made in laos"
+      - "small producer"
+      - "craft village"
+      - "export promotion"
+      - "export market"
+      - "value addition"
+      - "value chain"
+    opportunity:
+      - export
+      - buyer
+      - sourcing
+      - order
+      - contract
+      - fair
+      - exhibition
+      - "market access"
+      - certification
+      - "trade mission"
+      - "capacity building"
+    risk:
+      - "order cancellation"
+      - "supply disruption"
+      - compliance
+      - "input cost"
+      - "trade barrier"
+      - "labor shortage"
 
   food_agriculture:
     label: "Food & Agriculture"
@@ -260,6 +347,55 @@ sectors:
       - "currency controls"
       - sanctions
       - "banking restrictions"
+
+  asean_economic_community_integration:
+    label: "ASEAN Economic Community Integration"
+    include:
+      - asean
+      - "asean economic community"
+      - aec
+      - atiga
+      - rcep
+      - fta
+      - "industry linkage"
+      - "industry linkages"
+      - "supply chain linkage"
+      - "regional value chain"
+      - "single window"
+      - "asean single window"
+      - "trade agreement"
+      - "trade agreements"
+      - "trade facilitation"
+      - "customs modernization"
+      - customs
+      - "cross-border trade"
+      - exports
+      - "export growth"
+      - "digital trade"
+      - "digital data"
+      - interoperability
+      - "data exchange"
+      - "logistics corridor"
+      - infrastructure
+      - "connectivity"
+    opportunity:
+      - "mutual recognition"
+      - "market access"
+      - harmonization
+      - "rules of origin"
+      - "single window rollout"
+      - "customs reform"
+      - "trade corridor"
+      - "export growth"
+      - "digital customs"
+      - "infrastructure finance"
+    risk:
+      - delay
+      - bottleneck
+      - "non-tariff barrier"
+      - "compliance gap"
+      - "customs backlog"
+      - disruption
 
 # --- Cross-cutting Business Signal Terms ---
 business_signal_terms:
