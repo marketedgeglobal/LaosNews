@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-03-03T19:43:37.722262+00:00",
-  "fetched": 4019,
-  "filtered": 71,
-  "deduplicated": 13,
-  "selected": 13,
-  "diff_new": 0,
+  "run_at": "2026-03-03T19:48:45.182469+00:00",
+  "fetched": 4013,
+  "filtered": 178,
+  "deduplicated": 15,
+  "selected": 15,
+  "diff_new": 2,
   "diff_updated": 0,
   "diff_dropped": 0,
   "trend_summary": {
-    "freq_7d": 13.0,
+    "freq_7d": 15.0,
     "intensity_30d": "\u2192 Stable",
     "direction_90d": "\u2192 Stable"
   },
@@ -174,10 +174,10 @@
   "timeline_rows": [
     {
       "date": "2026-03-03",
-      "signals_count": 13,
+      "signals_count": 15,
       "sanctions_count": 0,
       "oil_count": 1,
-      "risk_avg": 23.46
+      "risk_avg": 22.33
     }
   ],
   "output_file": "/workspaces/LaosNews/docs/index.md",

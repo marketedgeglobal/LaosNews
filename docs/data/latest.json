@@ -1,6 +1,6 @@
 {
-  "runAt": "2026-03-03T19:43:37.722262+00:00",
-  "totalItems": 13,
+  "runAt": "2026-03-03T19:48:45.182469+00:00",
+  "totalItems": 15,
   "sectors": [
     {
       "name": "Extractives & Mining",
@@ -630,6 +630,111 @@
       ]
     },
     {
+      "name": "Textile & Handicraft",
+      "synth": {
+        "bullets": [
+          "Officials reported Lao handicraft festival ties tradition to tourism | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "3f97fda775ba",
+          "title": "Lao handicraft festival ties tradition to tourism",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/10/26/lao-handicraft-festival-ties-tradition-to-tourism",
+          "publisher": "thestar.com.my",
+          "publishedAt": "2025-10-26",
+          "sourcePublishedAt": "2025-10-26",
+          "sourceTier": "Tier 3",
+          "sector": "Textile & Handicraft",
+          "snippet": "VIENTIANE: The 24th Lao Handicraft Festival opened on the evening of October 22, launching a five-day showcase dedicated to preserving and promoting the nation's rich cultural heritage.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "25",
+                "context": "a procession to celebrate National Handicraft Day on the morning of October 25, starting from the Monument. As a grand\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "23",
+                "context": "to provide a deeper understanding of Lao traditions are scheduled for October 23. Another highlight of the event will\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "27",
+                "context": "a Lao Fashion Show will take place on the evening of October 27 at the Landmark Hotel, featuring traditional wedding\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "130",
+                "context": "ancient Lao textiles, is hosting the festival. The venue features more than 130 exhibition booths showcasing a wide\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "26",
+                "context": "and promoting the nation\u2019s rich cultural heritage. The event, running until October 26, is taking place at the new\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "130",
+                "context": "and sale of handicraft products, it enables knowledge-sharing among the more than 130 participating artisans and\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "22",
+                "context": "VIENTIANE: The 24th Lao Handicraft Festival opened on the evening of October 22, launching a five-day showcase\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "VIENTIANE: The 24th Lao Handicraft Festival opened on the evening of October 22, launching a five-day showcase dedicated to preserving and promoting the nation\u2019s rich cultural heritage. The event, running until October 26, is taking place at the new Traditional Lao Silk Residence, located next to the Presidential Office on Fa Ngum Road.",
+          "preview_source": "trafilatura",
+          "language": "en",
+          "insight2": {
+            "s1": "Lao handicraft festival ties tradition to tourism | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins Subscription Info Transactions Billing Info Manage For You\u2026",
+            "s2": "- THE STAR VIENTIANE: The 24th Lao Handicraft Festival opened on the evening of October 22, launching a five-day showcase dedicated to preserving and promoting the nation\u2019s rich cultural heritage",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around textile & handicraft, with 25 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "a procession to celebrate National Handicraft Day on the morning of October 25, starting from the Monument. As a grand\u2026",
+              "to provide a deeper understanding of Lao traditions are scheduled for October 23. Another highlight of the event will\u2026"
+            ]
+          },
+          "icons": [
+            "NEW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Education & Workforce",
       "synth": {
         "bullets": [
@@ -895,7 +1000,7 @@
       "synth": {
         "bullets": [
           "Officials reported 12, 2026 HIGHLIGHTS Downstream project success can catalyse upstream policy reform.",
-          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
+          "Field updates show Laos aims to advance modern cross-border trade | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
           "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
         ],
         "drivers": [
@@ -1000,6 +1105,63 @@
             ]
           },
           "icons": []
+        },
+        {
+          "id": "7dbc360b3daf",
+          "title": "Laos aims to advance modern cross-border trade",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/02/07/laos-aims-to-advance-modern-cross-border-trade",
+          "publisher": "thestar.com.my",
+          "publishedAt": "2026-02-07",
+          "sourcePublishedAt": "2026-02-07",
+          "sourceTier": "Tier 3",
+          "sector": "ASEAN Economic Community Integration",
+          "snippet": "Laos is accelerating the development of cross-border paperless trade to strengthen trade facilitation, promote trade, and enhance regional integration.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "85,000",
+                "context": "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "100",
+                "context": "and increase efficiency at border crossings. Laos had been expected to achieve 100 percent implementation of the\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "Laos had been expected to achieve 100 percent implementation of the WTO-TFA by January 2026. However, additional support from development partners is still needed to fully or partially implement certain measures, said the report. -- Xinhua",
+          "preview_source": "trafilatura",
+          "language": "en",
+          "insight2": {
+            "s1": "Laos aims to advance modern cross-border trade | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins Subscription Info Transactions Billing Info Manage For You Bookmarks\u2026",
+            "s2": "The Department of Foreign Trade under the Lao Ministry of Industry and Commerce held a seminar on \"Advancing Cross-Border Paperless Trade\" in Lao capital Vientiane on Thursday, aimed at reviewing progress and addressing\u2026",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in asean economic community integration, with 85,000 as a measurable reference point for scenario\u2026",
+            "confidence": "HIGH",
+            "evidence": [
+              "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026",
+              "and increase efficiency at border crossings. Laos had been expected to achieve 100 percent implementation of the\u2026"
+            ]
+          },
+          "icons": [
+            "NEW"
+          ]
         }
       ]
     }

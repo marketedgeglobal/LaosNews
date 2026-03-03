@@ -836,7 +836,7 @@ def apply_link_quality_gate(entries: list[dict], cfg: dict) -> list[dict]:
             _log_rejection(source_url, title, "paywall_or_firewall", candidate_url, final_url, _fmt_date(entry.get("published")))
             continue
 
-        if not _is_valid_resource_url(final_url):
+        if not _is_valid_resource_url(final_url) and not _allow_institutional_url_fallback(entry, cfg, final_url):
             _log_rejection(source_url, title, "url_not_article", candidate_url, final_url, _fmt_date(entry.get("published")))
             continue
 
@@ -1411,6 +1411,60 @@ def _is_paywalled_or_firewalled_domain(url: str) -> bool:
     return any(host == domain or host.endswith(f".{domain}") for domain in blocked)
 
 
+def _is_trusted_institutional_domain(url: str) -> bool:
+    host = _domain(url).lower().strip()
+    trusted = {
+        "ilo.org",
+        "intracen.org",
+        "wto.org",
+        "unctad.org",
+        "worldbank.org",
+        "adb.org",
+        "asean.org",
+    }
+    return any(host == domain or host.endswith(f".{domain}") for domain in trusted)
+
+
+def _is_institutional_resource_url(url: str) -> bool:
+    if not url or not _is_trusted_institutional_domain(url):
+        return False
+    if _is_paywalled_or_firewalled_domain(url):
+        return False
+    if _is_probable_homepage_url(url):
+        return False
+    try:
+        parsed = urlparse(url)
+    except Exception:  # noqa: BLE001
+        return False
+
+    path = (parsed.path or "").lower().strip()
+    if path in {"", "/", "/en", "/news", "/rss", "/rss.xml", "/feed", "/feeds"}:
+        return False
+
+    blocked_prefixes = (
+        "/search",
+        "/tag/",
+        "/tags/",
+        "/topic/",
+        "/topics/",
+        "/category/",
+        "/categories/",
+        "/sitemap",
+    )
+    if any(path.startswith(prefix) for prefix in blocked_prefixes):
+        return False
+
+    return True
+
+
+def _allow_institutional_url_fallback(entry: dict, cfg: dict, final_url: str) -> bool:
+    if not _is_institutional_resource_url(final_url):
+        return False
+    section = detect_sector_label(entry, cfg)
+    allowed_sections = {"Textile & Handicraft", "ASEAN Economic Community Integration"}
+    return section in allowed_sections
+
+
 def _is_valid_resource_url(url: str) -> bool:
     if not url:
         return False
@@ -1528,7 +1582,7 @@ def _load_preview_cache(latest_payload_path: str) -> dict[str, dict]:
             url = str(item.get("url", "") or "").strip()
             if not url:
                 continue
-            if not _is_valid_resource_url(url):
+            if not (_is_valid_resource_url(url) or _is_institutional_resource_url(url)):
                 continue
             preview = _validate_preview_text(str(item.get("preview", "") or ""))
             if not preview:

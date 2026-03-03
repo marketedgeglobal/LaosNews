@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-03-03T19:43:37.722262+00:00",
+  "run_at": "2026-03-03T19:48:45.182469+00:00",
   "trend_summary": {
-    "freq_7d": 13.0,
+    "freq_7d": 15.0,
     "intensity_30d": "\u2192 Stable",
     "direction_90d": "\u2192 Stable"
   },
