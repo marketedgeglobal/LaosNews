@@ -1,0 +1,99 @@
+# ============================
+# LAOS – MACRO & POLICY
+# ============================
+
+# HIGH-PRIORITY WIRE SERVICES
+ReliefWeb – Laos Updates - https://reliefweb.int/country/lao/rss.xml
+
+# Google News English
+Google News – Laos economy policy - https://news.google.com/rss/search?q=Laos+economy+policy&hl=en-US&gl=US&ceid=US:en
+Google News – Laos government regulation - https://news.google.com/rss/search?q=Laos+government+regulation&hl=en-US&gl=US&ceid=US:en
+Google News – Laos infrastructure - https://news.google.com/rss/search?q=Laos+infrastructure+project&hl=en-US&gl=US&ceid=US:en
+Google News – Laos investment climate - https://news.google.com/rss/search?q=Laos+investment+climate&hl=en-US&gl=US&ceid=US:en
+Google News – Laos China relations - https://news.google.com/rss/search?q=Laos+China+relations+investment&hl=en-US&gl=US&ceid=US:en
+
+Financial Times – Global Economy - https://www.ft.com/global-economy?format=rss
+Bloomberg – Politics - https://feeds.bloomberg.com/politics/news.rss
+
+# ============================
+# EXTRACTIVES, MINING & ENERGY
+# ============================
+
+Google News – Laos mining copper gold - https://news.google.com/rss/search?q=Laos+mining+copper+gold&hl=en-US&gl=US&ceid=US:en
+Google News – Laos hydropower dams - https://news.google.com/rss/search?q=Laos+hydropower+dam+electricity&hl=en-US&gl=US&ceid=US:en
+Google News – Laos energy projects - https://news.google.com/rss/search?q=Laos+energy+project+power&hl=en-US&gl=US&ceid=US:en
+Google News – Laos Nam Theun - https://news.google.com/rss/search?q=Laos+Nam+Theun+hydropower&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos mining energy - https://www.bing.com/news/search?q=laos+mining+energy&format=rss
+
+# ============================
+# FOOD & AGRICULTURE
+# ============================
+
+Google News – Laos agriculture rice coffee - https://news.google.com/rss/search?q=Laos+agriculture+rice+coffee&hl=en-US&gl=US&ceid=US:en
+Google News – Laos food security - https://news.google.com/rss/search?q=Laos+food+security+agriculture&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos agriculture - https://www.bing.com/news/search?q=laos+agriculture&format=rss
+IICA News - https://iica.int/en/rss
+FAO News - https://www.fao.org/news/rss-feed/en/
+
+# ============================
+# HEALTH & WATER
+# ============================
+
+Google News – Laos health system - https://news.google.com/rss/search?q=Laos+health+hospital+medicine&hl=en-US&gl=US&ceid=US:en
+Google News – Laos disease outbreak - https://news.google.com/rss/search?q=Laos+dengue+malaria+outbreak&hl=en-US&gl=US&ceid=US:en
+Google News – Laos water sanitation - https://news.google.com/rss/search?q=Laos+water+sanitation+mekong&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos health water - https://www.bing.com/news/search?q=laos+health+water&format=rss
+PAHO News - https://www.paho.org/en/rss.xml
+WHO News - https://www.who.int/rss-feeds/news-english.xml
+
+# ============================
+# EDUCATION & WORKFORCE
+# ============================
+
+Google News – Laos education schools - https://news.google.com/rss/search?q=Laos+education+schools+teachers&hl=en-US&gl=US&ceid=US:en
+Google News – Laos university students - https://news.google.com/rss/search?q=Laos+university+students&hl=en-US&gl=US&ceid=US:en
+Google News – Laos jobs labor market - https://news.google.com/rss/search?q=Laos+jobs+labor+market&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos education workforce - https://www.bing.com/news/search?q=laos+education+workforce&format=rss
+
+# ============================
+# FINANCE & INVESTMENT
+# ============================
+
+Google News – Laos banking economy - https://news.google.com/rss/search?q=Laos+banking+economy+currency&hl=en-US&gl=US&ceid=US:en
+Google News – Laos FDI investment - https://news.google.com/rss/search?q=Laos+investment+FDI+foreign&hl=en-US&gl=US&ceid=US:en
+Google News – Laos debt bond - https://news.google.com/rss/search?q=Laos+debt+bonds+loan&hl=en-US&gl=US&ceid=US:en
+Google News – Laos SEZ special economic zone - https://news.google.com/rss/search?q=Laos+special+economic+zone+SEZ&hl=en-US&gl=US&ceid=US:en
+Google News – Laos China railway BRI - https://news.google.com/rss/search?q=Laos+China+railway+belt+road&hl=en-US&gl=US&ceid=US:en
+Bing News – Laos finance investment - https://www.bing.com/news/search?q=laos+finance+investment&format=rss
+Bloomberg – Economics - https://feeds.bloomberg.com/economics/news.rss
+
+# ============================
+# ENGLISH-LANGUAGE BOOSTER QUERIES
+# ============================
+
+Google News – Reuters Laos - https://news.google.com/rss/search?q=site:reuters.com+Laos&hl=en-US&gl=US&ceid=US:en
+Google News – AP Laos - https://news.google.com/rss/search?q=site:apnews.com+Laos&hl=en-US&gl=US&ceid=US:en
+Google News – Financial Times Laos - https://news.google.com/rss/search?q=site:ft.com+Laos&hl=en-US&gl=US&ceid=US:en
+Google News – Bloomberg Laos - https://news.google.com/rss/search?q=site:bloomberg.com+Laos&hl=en-US&gl=US&ceid=US:en
+Google News – Reuters Laos economy - https://news.google.com/rss/search?q=site:reuters.com+Laos+economy&hl=en-US&gl=US&ceid=US:en
+Google News – AP Laos politics economy - https://news.google.com/rss/search?q=site:apnews.com+Laos+politics+economy&hl=en-US&gl=US&ceid=US:en
+Bing News – Reuters Laos - https://www.bing.com/news/search?q=site:reuters.com+laos&format=rss
+Bing News – AP Laos - https://www.bing.com/news/search?q=site:apnews.com+laos&format=rss
+
+# ============================
+# REGIONAL ENGLISH NEWS OUTLETS
+# ============================
+
+Bangkok Post Laos - https://www.bangkokpost.com/search?q=laos&type=rss
+The Nation Thailand Laos - https://www.nationthailand.com/search?q=laos&type=rss
+
+# ============================
+# PDF / DEEP-DIVE BOOSTER QUERIES
+# ============================
+
+Google News – Laos report PDF (2025) - https://news.google.com/rss/search?q=Laos+report+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
+Google News – Laos working paper PDF (2025) - https://news.google.com/rss/search?q=Laos+working+paper+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
+Google News – IMF Laos PDF (2025) - https://news.google.com/rss/search?q=site:imf.org+Laos+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
+Google News – World Bank Laos PDF (2025) - https://news.google.com/rss/search?q=site:worldbank.org+Laos+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
+Google News – ADB Laos PDF (2025) - https://news.google.com/rss/search?q=site:adb.org+Laos+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
+Google News – ReliefWeb Laos PDF (2025) - https://news.google.com/rss/search?q=site:reliefweb.int+Laos+filetype:pdf+2025&hl=en-US&gl=US&ceid=US:en
