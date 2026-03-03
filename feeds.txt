@@ -100,6 +100,14 @@ Google News – Laos silk weaving industry - https://news.google.com/rss/search?
 Google News – Laos apparel factory labor - https://news.google.com/rss/search?q=Laos+apparel+factory+labor&hl=en-US&gl=US&ceid=US:en
 Bing News – Laos textile handicraft - https://www.bing.com/news/search?q=laos+textile+handicraft&format=rss
 Google News – site:vientianetimes.org.la Laos textile - https://news.google.com/rss/search?q=site:vientianetimes.org.la+Laos+textile+handicraft&hl=en-US&gl=US&ceid=US:en
+Google News – Laos garment exports EU GSP - https://news.google.com/rss/search?q=Laos+garment+exports+EU+GSP&hl=en-US&gl=US&ceid=US:en
+Google News – Laos textile value chain SMEs - https://news.google.com/rss/search?q=Laos+textile+value+chain+SMEs&hl=en-US&gl=US&ceid=US:en
+Google News – Laos weaving handicraft tourism market - https://news.google.com/rss/search?q=Laos+weaving+handicraft+tourism+market&hl=en-US&gl=US&ceid=US:en
+Google News – site:ilo.org Laos garment - https://news.google.com/rss/search?q=site:ilo.org+Laos+garment+textile&hl=en-US&gl=US&ceid=US:en
+Google News – site:intracen.org Laos textile - https://news.google.com/rss/search?q=site:intracen.org+Laos+textile+exports&hl=en-US&gl=US&ceid=US:en
+Google News – site:wto.org Laos textile trade - https://news.google.com/rss/search?q=site:wto.org+Laos+textile+trade&hl=en-US&gl=US&ceid=US:en
+Google News – site:unctad.org Laos textiles - https://news.google.com/rss/search?q=site:unctad.org+Laos+textiles&hl=en-US&gl=US&ceid=US:en
+Google News – site:worldbank.org Laos garment value chain - https://news.google.com/rss/search?q=site:worldbank.org+Laos+garment+value+chain&hl=en-US&gl=US&ceid=US:en
 
 # ============================
 # ENGLISH-LANGUAGE BOOSTER QUERIES

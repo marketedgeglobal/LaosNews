@@ -1,10 +1,10 @@
 {
-  "run_at": "2026-03-03T19:34:12.428630+00:00",
-  "fetched": 3459,
-  "filtered": 69,
+  "run_at": "2026-03-03T19:43:37.722262+00:00",
+  "fetched": 4019,
+  "filtered": 71,
   "deduplicated": 13,
   "selected": 13,
-  "diff_new": 4,
+  "diff_new": 0,
   "diff_updated": 0,
   "diff_dropped": 0,
   "trend_summary": {

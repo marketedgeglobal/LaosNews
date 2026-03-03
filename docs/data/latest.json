@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-03-03T19:34:12.428630+00:00",
+  "runAt": "2026-03-03T19:43:37.722262+00:00",
   "totalItems": 13,
   "sectors": [
     {
@@ -335,7 +335,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -351,9 +351,7 @@
             "confidence": "HIGH",
             "evidence": []
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         },
         {
           "id": "1a40803d3d7d",
@@ -419,7 +417,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -487,9 +485,7 @@
               "Mr Yang noted that the initiative aligns with Sustainable Development Goal (SDG) 7 on affordable and clean energy, Goal\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     },
@@ -670,7 +666,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -686,9 +682,7 @@
             "confidence": "LOW",
             "evidence": []
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     },
@@ -937,7 +931,7 @@
           "flags": {
             "risk": false,
             "opportunity": false,
-            "new": true,
+            "new": false,
             "updated": false
           },
           "metrics": {
@@ -1005,9 +999,7 @@
               "Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9. Infrastructure 10. Inequality\u2026"
             ]
           },
-          "icons": [
-            "NEW"
-          ]
+          "icons": []
         }
       ]
     }
