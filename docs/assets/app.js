@@ -337,6 +337,7 @@
 
     function renderBdOppsCard(bd) {
         const opps = (bd && Array.isArray(bd.opportunities)) ? bd.opportunities : [];
+        if (!opps.length) return '';
         const rows = opps.length
             ? opps.slice(0, 5).map((o) => `
                 <div class="opp-row">
@@ -352,14 +353,14 @@
                     <div class="opp-summary">${esc(o.summary || '')}</div>
                 </div>
             `).join('')
-            : '<div class="opp-empty">No live opportunities detected today. This card only shows RFPs, RFIs, tenders, grants, EOIs, and ToRs that mention Venezuela.</div>';
+            : '';
 
         return `
             <section class="panel opp-card" id="bd-opportunities">
                 <div class="opp-head">
                     <div>
-                        <h3>BD Opportunities in Venezuela</h3>
-                        <div class="opp-sub">Live opportunities only: RFPs, RFIs, RFQs, EOIs, ITBs, grants, tenders, and ToRs tied to Venezuela.</div>
+                        <h3>BD Opportunities in Laos</h3>
+                        <div class="opp-sub">Live opportunities only: tenders, grants, calls, partnerships, and implementation windows tied to Laos.</div>
                     </div>
                     <div class="opp-count">${esc(String((bd && bd.count) ?? opps.length))} found</div>
                 </div>

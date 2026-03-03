@@ -12,29 +12,29 @@ FEEDS_PATH = "feeds.txt"
 OUT_JSON = "docs/data/bd_opps.json"
 
 BD_FEED_URLS = [
-    "https://news.google.com/rss/search?q=Venezuela+rfp+OR+request+for+proposal+OR+tender+OR+procurement",
-    "https://news.google.com/rss/search?q=Venezuela+expression+of+interest+OR+EOI+OR+terms+of+reference+OR+ToR",
-    "https://news.google.com/rss/search?q=Venezuela+grant+funding+opportunity+call+for+proposals",
-    "https://news.google.com/rss/search?q=site:devbusiness.un.org+Venezuela+tender+OR+procurement",
-    "https://news.google.com/rss/search?q=site:ungm.org+Venezuela+tender+OR+procurement",
-    "https://news.google.com/rss/search?q=site:reliefweb.int+Venezuela+" +
+    "https://news.google.com/rss/search?q=Laos+rfp+OR+request+for+proposal+OR+tender+OR+procurement",
+    "https://news.google.com/rss/search?q=Laos+expression+of+interest+OR+EOI+OR+terms+of+reference+OR+ToR",
+    "https://news.google.com/rss/search?q=Laos+grant+funding+opportunity+call+for+proposals",
+    "https://news.google.com/rss/search?q=site:devbusiness.un.org+Laos+tender+OR+procurement",
+    "https://news.google.com/rss/search?q=site:ungm.org+Laos+tender+OR+procurement",
+    "https://news.google.com/rss/search?q=site:reliefweb.int+Laos+" +
     "\"call for proposals\"+OR+\"expression of interest\"+OR+tender",
-    "https://www.bing.com/news/search?q=venezuela+rfp+request+for+proposal+tender+procurement&format=rss",
-    "https://www.bing.com/news/search?q=site:devbusiness.un.org+venezuela+tender+procurement&format=rss",
-    "https://www.bing.com/news/search?q=site:ungm.org+venezuela+tender+procurement&format=rss",
-    "https://www.bing.com/news/search?q=venezuela+grant+funding+opportunity+call+for+proposals&format=rss",
-    "https://news.google.com/rss/search?q=site:undp.org+venezuela+procurement+OR+tender+OR+expression+of+interest",
-    "https://news.google.com/rss/search?q=site:unicef.org+venezuela+procurement+OR+tender+OR+rfp",
-    "https://news.google.com/rss/search?q=site:paho.org+venezuela+procurement+OR+tender+OR+call+for+proposals",
-    "https://news.google.com/rss/search?q=site:iadb.org+venezuela+procurement+OR+tender+OR+expression+of+interest",
-    "https://news.google.com/rss/search?q=site:worldbank.org+venezuela+procurement+OR+tender+OR+request+for+proposals",
-    "https://news.google.com/rss/search?q=site:caf.com+venezuela+tender+OR+procurement+OR+call+for+proposals",
-    "https://news.google.com/rss/search?q=site:dgmarket.com+venezuela+tender+OR+procurement",
-    "https://news.google.com/rss/search?q=site:tendersinfo.com+venezuela+tender+OR+procurement",
-    "https://www.bing.com/news/search?q=site:undp.org+venezuela+procurement+tender+rfp&format=rss",
-    "https://www.bing.com/news/search?q=site:worldbank.org+venezuela+procurement+tender+request+for+proposals&format=rss",
-    "https://news.google.com/rss/search?q=Venezuela+licitaci%C3%B3n+OR+convocatoria+OR+expresi%C3%B3n+de+inter%C3%A9s",
-    "https://www.bing.com/news/search?q=venezuela+licitacion+convocatoria+expresion+de+interes&format=rss",
+    "https://www.bing.com/news/search?q=laos+rfp+request+for+proposal+tender+procurement&format=rss",
+    "https://www.bing.com/news/search?q=site:devbusiness.un.org+laos+tender+procurement&format=rss",
+    "https://www.bing.com/news/search?q=site:ungm.org+laos+tender+procurement&format=rss",
+    "https://www.bing.com/news/search?q=laos+grant+funding+opportunity+call+for+proposals&format=rss",
+    "https://news.google.com/rss/search?q=site:undp.org+laos+procurement+OR+tender+OR+expression+of+interest",
+    "https://news.google.com/rss/search?q=site:unicef.org+laos+procurement+OR+tender+OR+rfp",
+    "https://news.google.com/rss/search?q=site:fao.org+laos+procurement+OR+tender+OR+call+for+proposals",
+    "https://news.google.com/rss/search?q=site:who.int+laos+procurement+OR+tender+OR+call+for+proposals",
+    "https://news.google.com/rss/search?q=site:adb.org+laos+procurement+OR+tender+OR+request+for+proposals",
+    "https://news.google.com/rss/search?q=site:worldbank.org+laos+procurement+OR+tender+OR+request+for+proposals",
+    "https://news.google.com/rss/search?q=site:iucn.org+laos+call+for+proposals+OR+grant",
+    "https://news.google.com/rss/search?q=site:wwf.org+laos+grant+OR+procurement+OR+tender",
+    "https://news.google.com/rss/search?q=site:dgmarket.com+laos+tender+OR+procurement",
+    "https://news.google.com/rss/search?q=site:tendersinfo.com+laos+tender+OR+procurement",
+    "https://news.google.com/rss/search?q=site:giz.de+laos+call+for+proposals+OR+tender",
+    "https://news.google.com/rss/search?q=site:devex.com+laos+consultancy+OR+grant+OR+funding",
     "https://www2.fundsforngos.org/category/cfp/feed/",
     "https://www2.fundsforngos.org/category/grants-and-resources/feed/",
 ]
@@ -50,13 +50,16 @@ OPP_TERMS = [
     "licitación", "licitacion", "convocatoria", "convocatoria abierta",
     "expresión de interés", "expresion de interes", "términos de referencia", "terminos de referencia",
     "adquisición", "adquisicion", "contratación", "contratacion", "concurso", "subvención", "subvencion",
+    "partnership", "consortium", "implementation support", "technical assistance",
+    "humanitarian", "development program", "ngo", "civil society", "conservation",
+    "biodiversity", "protected area", "climate adaptation", "nature-based",
 ]
 
 EXCLUDE_TERMS = ["opinion", "commentary", "podcast", "video", "newsletter", "profile", "interview"]
 
 VZLA_TERMS = [
-    "venezuela", "venezuelan", "venezolana", "venezolano", "caracas", "pdvsa",
-    "bolivar", "bolívar", "maracaibo", "orinoco", "zulia", "guyana essequibo"
+    "laos", "laotian", "lao pdr", "lao people's democratic republic", "vientiane",
+    "luang prabang", "savannakhet", "pakse", "champasak", "attapeu", "mekong"
 ]
 
 ACRONYM_TERMS = {"rfp", "rfi", "rfq", "itb", "eoi", "tor", "cfp", "rfqs", "eois"}
@@ -68,6 +71,16 @@ OPPORTUNITY_DOMAINS = {
     "dgmarket.com",
     "tendersinfo.com",
     "reliefweb.int",
+    "undp.org",
+    "unicef.org",
+    "fao.org",
+    "who.int",
+    "adb.org",
+    "worldbank.org",
+    "iucn.org",
+    "wwf.org",
+    "giz.de",
+    "devex.com",
 }
 
 TITLE_URL_OPP_TERMS = [
@@ -281,7 +294,7 @@ def make_summary(item: dict, hay: str) -> str:
     sentences = [sent for sent in split_sentences(preview) if len(sent) > 35]
     core = " ".join(sentences[:2]) if len(sentences) >= 2 else (sentences[0] if sentences else "")
 
-    out = [f"Opportunity linked to Venezuela: {org} or its partners invite proposals, bids, or applications."]
+    out = [f"Opportunity linked to Laos: {org} or partners invite proposals, grants, bids, or implementation support."]
     if core:
         out.append(core)
 
@@ -466,21 +479,18 @@ def main() -> None:
             continue
 
         title_url_text = f"{title} {url}"
-        if not contains_any(title_url_text, TITLE_URL_OPP_TERMS):
-            continue
-
-        if not contains_any(hay, OPP_TERMS):
+        if not contains_any(hay, OPP_TERMS) and not any(domain in url.lower() for domain in OPPORTUNITY_DOMAINS):
             continue
 
         deadline = extract_deadline(hay)
         amount = extract_amount(hay)
-        if not (deadline or amount or contains_any(hay, ACTION_TERMS)):
+        if not (deadline or amount or contains_any(hay, ACTION_TERMS) or any(domain in url.lower() for domain in OPPORTUNITY_DOMAINS)):
             continue
 
         score = score_opp(hay)
-        if contains_any(hay, EXCLUDE_TERMS) and score < 5:
+        if contains_any(hay, EXCLUDE_TERMS) and score < 4:
             continue
-        if score < 3:
+        if score < 2:
             continue
         if is_expired_deadline(deadline, today):
             continue

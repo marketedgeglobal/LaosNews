@@ -693,7 +693,7 @@ def _title_mentions_venezuela(title: str) -> bool:
         return False
     return bool(
         re.search(
-            r"\b(?:laos|lao|lao\s+pdr|lao\s+people'?s\s+democratic\s+republic|vientiane|luang\s+prabang|pakse|savannakhet|champasak|attapeu|mekong)\b",
+            r"\b(?:laos|laotian|lao\s+pdr|lao\s+people'?s\s+democratic\s+republic)\b",
             value,
             flags=re.IGNORECASE,
         )
@@ -745,11 +745,7 @@ def filter_entries(
         source_url = str(e.get("source_url", "") or "")
         title_text = str(e.get("title", "") or "")
 
-        title_mentions_laos = _title_mentions_venezuela(title_text)
-        source_mentions_laos = _source_is_laos_focused(source_url)
-        has_sector_signal = _has_sector_keyword_signal(e, cfg)
-
-        if not title_mentions_laos and not (source_mentions_laos and has_sector_signal):
+        if not _title_mentions_venezuela(title_text):
             _log_rejection(
                 source_url,
                 title_text,
@@ -912,6 +908,14 @@ def _title_topic_key(title: str) -> str:
     return _title_key(topic)
 
 
+def _canonical_title_for_dedupe(title: str) -> str:
+    topic = _title_topic_key(title) or _title_key(title)
+    normalized = re.sub(r"\s+", " ", topic).strip()
+    normalized = re.sub(r"\b(?:update|live|analysis|exclusive)\b", "", normalized, flags=re.IGNORECASE)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    return normalized
+
+
 def deduplicate(entries: list[dict], threshold: float = 0.90, cfg: dict | None = None) -> list[dict]:
     """Remove duplicate entries using URL + title-similarity checks."""
     seen_urls: set[str] = set()
@@ -926,7 +930,7 @@ def deduplicate(entries: list[dict], threshold: float = 0.90, cfg: dict | None =
         if url and url in seen_urls:
             continue
 
-        title = _title_key(e.get("title", ""))
+        title = _canonical_title_for_dedupe(e.get("title", ""))
         topic = _title_topic_key(e.get("title", ""))
         duplicate = False
         for idx, seen in enumerate(seen_titles):
@@ -937,13 +941,7 @@ def deduplicate(entries: list[dict], threshold: float = 0.90, cfg: dict | None =
                 else 0.0
             )
             same_topic = bool(topic and seen_topics[idx] and (topic == seen_topics[idx] or topic_ratio >= topic_threshold))
-            if ratio >= threshold or same_topic:
-                if cfg is not None:
-                    existing = unique[idx]
-                    new_label = detect_sector_label(e, cfg)
-                    existing_label = detect_sector_label(existing, cfg)
-                    if new_label != existing_label:
-                        continue
+            if ratio >= threshold or same_topic or ratio >= 0.86:
                 duplicate = True
                 break
         if duplicate:

@@ -2,9 +2,9 @@
   "executiveBriefBullets": [
     "Government and institutional moves show thestar.com.my and waterpowermagazine.com converging on Laos prioritises food security and agricultural modernisation for the future of the country | The Star \u00d7 View The Star\u2026\u2026",
     "Operational evidence across sources indicates waterpowermagazine.com and reuters.com converging on Yet the outlook to 2035 is not one of simple expansion with figures including $12.6bn.",
-    "Multiple reports converge on reuters.com and vientianetimes.org.la converging on Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on\u2026.",
+    "Multiple reports converge on reuters.com and vientianetimes.org.la converging on The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies\u2026.",
     "The current cycle confirms vientianetimes.org.la and eastasiaforum.org converging on Vientiane Times Vientiane Times --> with figures including US$1.6.",
-    "Cross-sector tracking now shows eastasiaforum.org and eco-business.com converging on But persistent structural constraints remain with figures including US$2.1 billion."
+    "Cross-sector tracking now shows eastasiaforum.org and reuters.com converging on But persistent structural constraints remain with figures including US$2.1 billion."
   ],
   "keyDevelopments": [
     {
@@ -18,16 +18,16 @@
       "text": "Yet the outlook to 2035 is not one of simple expansion.",
       "itemIds": [
         "1c7773dcf3f4",
-        "809ad179c387",
-        "5abe0a62d560"
+        "5abe0a62d560",
+        "1a40803d3d7d"
       ]
     },
     {
-      "text": "Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the latest in a\u2026",
+      "text": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract\u2026",
       "itemIds": [
-        "809ad179c387",
+        "5abe0a62d560",
         "1c7773dcf3f4",
-        "5abe0a62d560"
+        "1a40803d3d7d"
       ]
     },
     {
@@ -59,22 +59,22 @@
       "itemId": "1c7773dcf3f4"
     },
     {
-      "label": "Sanctions and state revenue",
-      "value": "150",
-      "context": "generating revenue from electricity sales. The plant will be built on a 150-hectare site\u2026",
-      "itemId": "dd28fa704498"
-    },
-    {
       "label": "Macro and finance",
       "value": "5.6",
       "context": "2025, surpassing the 2021\u20132025 average of 4.2 per cent. Inflation fell to 5.6 per cent in\u2026",
       "itemId": "1ee2f0e0fd02"
     },
     {
-      "label": "Health signal",
-      "value": "8",
-      "context": "Hunger 3. Health 4. Education 5. Gender equality 6. Water 7. Energy 8. Economic growth 9.\u2026",
-      "itemId": "adf2c849ef5b"
+      "label": "Policy or market figure",
+      "value": "40%",
+      "context": "to support exports to Thailand, Vietnam and Cambodia. Hydropower contributes an estimated\u2026",
+      "itemId": "1c7773dcf3f4"
+    },
+    {
+      "label": "Policy or market figure",
+      "value": "85,000",
+      "context": "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood\u2026",
+      "itemId": "a82c8c307936"
     }
   ],
   "sectorSynth": {
@@ -94,8 +94,8 @@
     "Energy": {
       "bullets": [
         "Officials reported Yet the outlook to 2035 is not one of simple expansion.",
-        "Field updates show Stocks of Indian solar equipment makers plunged on Wednesday, after the United States imposed preliminary duties on imports from India, Indonesia and Laos, the\u2026",
-        "Separate sources indicate The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in\u2026"
+        "Field updates show The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an\u2026",
+        "Separate sources indicate The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported\u2026"
       ],
       "drivers": [
         "Oil production/export"
@@ -122,32 +122,6 @@
         "Sanctions and licensing language"
       ]
     },
-    "Textile & Handicraft": {
-      "bullets": [
-        "Officials reported Lao handicraft festival ties tradition to tourism | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
-        "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
-        "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
-      ],
-      "drivers": [],
-      "watch": [
-        "Regulatory deadlines",
-        "Executive decrees",
-        "Sanctions and licensing language"
-      ]
-    },
-    "Education & Workforce": {
-      "bullets": [
-        "Officials reported Workforce Pell Is Worth It\u2014But Not For The Reasons Many May Think is the central development flagged in the publication.",
-        "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
-        "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
-      ],
-      "drivers": [],
-      "watch": [
-        "Regulatory deadlines",
-        "Executive decrees",
-        "Sanctions and licensing language"
-      ]
-    },
     "Finance & Investment": {
       "bullets": [
         "Officials reported Vientiane Times Vientiane Times -->.",
@@ -163,13 +137,11 @@
     },
     "ASEAN Economic Community Integration": {
       "bullets": [
-        "Officials reported 12, 2026 HIGHLIGHTS Downstream project success can catalyse upstream policy reform.",
-        "Field updates show Laos aims to advance modern cross-border trade | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
+        "Officials reported Laos aims to advance modern cross-border trade | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
+        "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
         "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
       ],
-      "drivers": [
-        "Regulatory reform"
-      ],
+      "drivers": [],
       "watch": [
         "Regulatory deadlines",
         "Executive decrees",

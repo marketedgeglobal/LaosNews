@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-03-03T20:01:13.615194+00:00",
-  "fetched": 3985,
-  "filtered": 174,
-  "deduplicated": 16,
-  "selected": 16,
+  "run_at": "2026-03-03T20:12:28.336376+00:00",
+  "fetched": 3989,
+  "filtered": 77,
+  "deduplicated": 10,
+  "selected": 10,
   "diff_new": 0,
   "diff_updated": 0,
-  "diff_dropped": 0,
+  "diff_dropped": 6,
   "trend_summary": {
-    "freq_7d": 16.0,
+    "freq_7d": 10.0,
     "intensity_30d": "\u2192 Stable",
     "direction_90d": "\u2192 Stable"
   },
@@ -156,12 +156,12 @@
       "summary": "This week in infrastructure, signal flow is concentrated around Oil production/export. Risk pressure is mixed with an average score of 30/100. Positive momentum appears in 0 items, while 0 items indicate material downside pressure. Decision context should balance regulatory trajectory, operational feasibility, and partner exposure. Near-term positioning favors scenario planning with trigger-based execution gates.",
       "risks": [
         "Hydropower anchors Laos\u2019 power expansion as exports surge and diversification gathers pace",
-        "Indian solar shares slump as US duties threaten bigger tariff hit",
+        "US sets preliminary duties on solar imports from India, Indonesia and Laos",
         "Abacus Capital launches to boost capital market, expand investment opportunities in Laos"
       ],
       "opportunities": [
         "Hydropower anchors Laos\u2019 power expansion as exports surge and diversification gathers pace",
-        "Indian solar shares slump as US duties threaten bigger tariff hit",
+        "US sets preliminary duties on solar imports from India, Indonesia and Laos",
         "Abacus Capital launches to boost capital market, expand investment opportunities in Laos"
       ],
       "watch": [
@@ -174,10 +174,10 @@
   "timeline_rows": [
     {
       "date": "2026-03-03",
-      "signals_count": 16,
+      "signals_count": 10,
       "sanctions_count": 0,
       "oil_count": 1,
-      "risk_avg": 22.81
+      "risk_avg": 25.0
     }
   ],
   "output_file": "/workspaces/LaosNews/docs/index.md",
