@@ -1,0 +1,599 @@
+{
+  "runAt": "2026-03-03T19:23:22.461900+00:00",
+  "totalItems": 7,
+  "sectors": [
+    {
+      "name": "Extractives & Mining",
+      "synth": {
+        "bullets": [
+          "Officials reported Vientiane Times Vientiane Times -->.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "9d942b7b74b2",
+          "title": "Laos, The Asia Foundation partner to strengthen environmental and social impact assessments",
+          "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_038_Laos_y26.php",
+          "publisher": "vientianetimes.org.la",
+          "publishedAt": "2026-02-23",
+          "sourcePublishedAt": "2026-02-23",
+          "sourceTier": "Tier 3",
+          "sector": "Extractives & Mining",
+          "snippet": "Ms Phakkavanh Phitsamai ( centre right ) and Ms Khaliungoo Ganbat ( centre left ) stand with Dr Saynakhone Inthavong, Ms Benita Sommerville, and other participants at the MOU signing ceremony in Vientiane on Monday.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "24",
+                "context": "including gender equality and disability equity. By Times Reporters (Latest Update February 24, 2026 ) Newspaper\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "32",
+                "context": "Online Advertisement Prices l Online Subscription Prices Vientiane Times Phonpapao Village, Unit 32, Sisattanak\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "856",
+                "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
+                "score": -3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "21",
+                "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
+                "score": -3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "856",
+                "context": "Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax: (856-21) 336041; Email:\u2026",
+                "score": -3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "21",
+                "context": "Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax: (856-21) 336041; Email:\u2026",
+                "score": -3
+              }
+            ]
+          },
+          "preview": "Ms Phakkavanh Phitsamai ( centre right ) and Ms Khaliungoo Ganbat ( centre left ) stand with Dr Saynakhone Inthavong, Ms Benita Sommerville, and other participants at the MOU signing ceremony in Vientiane on Monday.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Vientiane Times Vientiane Times -->",
+            "s2": "Laos, The Asia Foundation partner to strengthen environmental and social impact assessments The Department of Environment under the Ministry of Agriculture and Environment and The Asia Foundation (TAF) on Monday signed\u2026",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in extractives & mining, with 24 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "including gender equality and disability equity. By Times Reporters (Latest Update February 24, 2026 ) Newspaper\u2026",
+              "Online Advertisement Prices l Online Subscription Prices Vientiane Times Phonpapao Village, Unit 32, Sisattanak\u2026"
+            ]
+          },
+          "icons": [
+            "ENERGY",
+            "NEW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food & Agriculture",
+      "synth": {
+        "bullets": [
+          "Officials reported Laos prioritises food security and agricultural modernisation for the future of the country | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person\u2026",
+          "Field updates show Laos seeks to strengthen sustainable food systems | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins\u2026",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
+        ],
+        "drivers": [
+          "Political transition",
+          "Security"
+        ],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "a5bc3cd03018",
+          "title": "Laos seeks to strengthen sustainable food systems",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/03/laos-seeks-to-strengthen-sustainable-food-systems",
+          "publisher": "thestar.com.my",
+          "publishedAt": "2026-03-03",
+          "sourcePublishedAt": "2026-03-03",
+          "sourceTier": "Tier 3",
+          "sector": "Food & Agriculture",
+          "snippet": "VIENTIANE: The Lao government, in collaboration with development partners, launched the national action plan on transition toward sustainable food systems transformation (2025-2030) to boost farmers' incomes, nutrition, climate resilience, and sustainable environments for future\u2026",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [
+            "Political transition"
+          ],
+          "sentiment": "Neutral",
+          "materiality": 1,
+          "risk_score": 15,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "85,000",
+                "context": "MYT share bookmark Related Stories Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago Laos\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "20",
+                "context": "plan, unveiled in the Lao capital Vientiane on Monday (March 2), outlines 20 strategic action areas and 62 priority\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "85,000",
+                "context": "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "62",
+                "context": "capital Vientiane on Monday (March 2), outlines 20 strategic action areas and 62 priority milestones to build\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "VIENTIANE: The Lao government, in collaboration with development partners, launched the national action plan on transition toward sustainable food systems transformation (2025-2030) to boost farmers' incomes, nutrition, climate resilience, and sustainable environments for future\u2026",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Laos seeks to strengthen sustainable food systems | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins Subscription Info Transactions Billing Info Manage For You\u2026",
+            "s2": "The plan, unveiled in the Lao capital Vientiane on Monday (March 2), outlines 20 strategic action areas and 62 priority milestones to build inclusive, resilient and nature-positive food systems",
+            "s3": "Implication: near-term decision quality now depends more on monitoring counterpart behavior than on headline announcements alone, with 85,000 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "MYT share bookmark Related Stories Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago Laos\u2026",
+              "plan, unveiled in the Lao capital Vientiane on Monday (March 2), outlines 20 strategic action areas and 62 priority\u2026"
+            ]
+          },
+          "icons": [
+            "NEW"
+          ]
+        },
+        {
+          "id": "a82c8c307936",
+          "title": "Laos prioritises food security and agricultural modernisation for the future of the country",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/02/laos-prioritises-food-security-and-agricultural-modernisation-for-the-future-of-the-country",
+          "publisher": "thestar.com.my",
+          "publishedAt": "2026-03-02",
+          "sourcePublishedAt": "2026-03-02",
+          "sourceTier": "Tier 3",
+          "sector": "Food & Agriculture",
+          "snippet": "Lao Prime Minister Sonexay Siphandone has called for accelerated efforts to strengthen food security, modernise agricultural production, and improve the management of land, forest, and water resources.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [
+            "Security"
+          ],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 40,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "85,000",
+                "context": "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "He called for greater attention to soil improvement, protection of productive farmland, and the development of concentrated production zones supported by appropriate infrastructure. Expanding domestic production of animal feed, fertilizers, pesticides, and veterinary medicine was also emphasized to reduce reliance on imports.",
+          "preview_source": "trafilatura",
+          "language": "en",
+          "insight2": {
+            "s1": "Laos prioritises food security and agricultural modernisation for the future of the country | The Star \u00d7 View The Star ePaper --> Subscriptions Log In person Profile Change Password Manage Logins Subscription Info\u2026",
+            "s2": "According to a report by the Lao News Agency on Monday, Sonexay delivered the message during a meeting held on Saturday to review the agriculture and forestry sector in 2025",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in food & agriculture, with 85,000 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "to strengthen sustainable food systems Laos 1d ago Lao Red Cross targets 85,000 blood donations in 2026 Laos 1d ago\u2026"
+            ]
+          },
+          "icons": [
+            "NEW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health & Water",
+      "synth": {
+        "bullets": [
+          "Coverage was limited in this sector during the current cycle.",
+          "No concrete multi-source development met the threshold for a stronger synthesis bullet.",
+          "Watch the next run for confirmed operational or policy updates tied to this sector."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory updates",
+          "Partner statements",
+          "Execution constraints"
+        ]
+      },
+      "items": []
+    },
+    {
+      "name": "Education & Workforce",
+      "synth": {
+        "bullets": [
+          "Coverage was limited in this sector during the current cycle.",
+          "No concrete multi-source development met the threshold for a stronger synthesis bullet.",
+          "Watch the next run for confirmed operational or policy updates tied to this sector."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory updates",
+          "Partner statements",
+          "Execution constraints"
+        ]
+      },
+      "items": []
+    },
+    {
+      "name": "Finance & Investment",
+      "synth": {
+        "bullets": [
+          "Officials reported Vientiane Times Vientiane Times -->.",
+          "Field updates show But persistent structural constraints remain.",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "e2a6c6996e33",
+          "title": "Abacus Capital launches to boost capital market, expand investment opportunities in Laos",
+          "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_041_Abacus_y26.php",
+          "publisher": "vientianetimes.org.la",
+          "publishedAt": "2026-02-26",
+          "sourcePublishedAt": "2026-02-26",
+          "sourceTier": "Tier 3",
+          "sector": "Finance & Investment",
+          "snippet": "Deputy Governor of the Bank of the Lao PDR, Soulysak Thamnuvong ( centre ), along with other senior banking officials and company representatives pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Policy or market figure",
+                "value": "US$1.6",
+                "context": "the long term rather than spending them immediately. Currently valued at over US$1.6-1.8 trillion, it is one of the\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "20",
+                "context": "pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane. Abacus Capital launches to\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "20",
+                "context": "pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane. Vientiane Times Vientiane\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "1.8",
+                "context": "the long term rather than spending them immediately. Currently valued at over US$1.6-1.8 trillion, it is one of the\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "27",
+                "context": "the Lao economy. -- Advertorial Desk By Times Reporters (Latest Update February 27, 2026 ) Newspaper Subscription\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "32",
+                "context": "Online Advertisement Prices l Online Subscription Prices Vientiane Times Phonpapao Village, Unit 32, Sisattanak\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "856",
+                "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
+                "score": -3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "21",
+                "context": "Phonpapao Village, Unit 32, Sisattanak District, P.O.Box: 5723 Vientiane, Lao PDR Tel: (856-21) 336042, 336043; Fax:\u2026",
+                "score": -3
+              }
+            ]
+          },
+          "preview": "Deputy Governor of the Bank of the Lao PDR, Soulysak Thamnuvong ( centre ), along with other senior banking officials and company representatives pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "Vientiane Times Vientiane Times -->",
+            "s2": "Abacus Capital launches to boost capital market, expand investment opportunities in Laos Abacus Capital Fund Management Co., Ltd",
+            "s3": "Implication: stakeholder leverage appears to be rotating, which can change policy sequencing and implementation timing in finance & investment, with US$1.6 as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "the long term rather than spending them immediately. Currently valued at over US$1.6-1.8 trillion, it is one of the\u2026",
+              "pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane. Abacus Capital launches to\u2026"
+            ]
+          },
+          "icons": [
+            "TRADE",
+            "NEW"
+          ]
+        },
+        {
+          "id": "1ee2f0e0fd02",
+          "title": "Laos\u2019s year of consolidation and strategic balancing",
+          "url": "https://eastasiaforum.org/2026/02/18/laoss-year-of-consolidation-and-strategic-balancing/",
+          "publisher": "eastasiaforum.org",
+          "publishedAt": "2026-02-18",
+          "sourcePublishedAt": "2026-02-18",
+          "sourceTier": "Tier 3",
+          "sector": "Finance & Investment",
+          "snippet": "Laos\u2019s economic prospects for 2026 are cautiously hopeful but constrained by structural vulnerabilities.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": [
+              {
+                "label": "Sanctions and state revenue",
+                "value": "US$2.1 billion",
+                "context": "lifted foreign exchange reserves to US$3.5 billion at year end, up from US$2.1 billion in 2024. On the fiscal front,\u2026",
+                "score": 5
+              },
+              {
+                "label": "Macro and finance",
+                "value": "4.2",
+                "context": "have reached 4.8 per cent in 2025, surpassing the 2021\u20132025 average of 4.2 per cent. Inflation fell to 5.6 per cent in\u2026",
+                "score": 3
+              },
+              {
+                "label": "Macro and finance",
+                "value": "5.6",
+                "context": "2025, surpassing the 2021\u20132025 average of 4.2 per cent. Inflation fell to 5.6 per cent in December after years of\u2026",
+                "score": 3
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "US$3.5 billion",
+                "context": ", together with steady foreign direct investment, lifted foreign exchange reserves to US$3.5 billion at year end, up\u2026",
+                "score": 2
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "17",
+                "context": "undertaken in 2025, with administrative restructuring reducing the number of ministries from 17 to 13 and streamlining\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "49",
+                "context": "streamlining departments. As part of state-owned enterprise reform, the sale of a 49 per cent stake in Lao Airlines to\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "13",
+                "context": "2025, with administrative restructuring reducing the number of ministries from 17 to 13 and streamlining departments.\u2026",
+                "score": 0
+              },
+              {
+                "label": "Policy or market figure",
+                "value": "10",
+                "context": "joint venture, unlike the Electricit\u00e9 du Laos Transmission Company where Laos owns 10 per cent, reflects Vientiane\u2019s\u2026",
+                "score": 0
+              }
+            ]
+          },
+          "preview": "Laos\u2019s economic prospects for 2026 are cautiously hopeful but constrained by structural vulnerabilities.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "But persistent structural constraints remain",
+            "s2": "Debt pressures, infrastructure financing needs and preparations for graduation from Least Developed Country status will test the government\u2019s ability to translate its vision of economic self-reliance into effective\u2026",
+            "s3": "Implication: the political economy signal now points to tighter bargaining space around finance & investment decisions, with US$2.1 billion as a measurable reference point for scenario tracking.",
+            "confidence": "HIGH",
+            "evidence": [
+              "lifted foreign exchange reserves to US$3.5 billion at year end, up from US$2.1 billion in 2024. On the fiscal front,\u2026",
+              "have reached 4.8 per cent in 2025, surpassing the 2021\u20132025 average of 4.2 per cent. Inflation fell to 5.6 per cent in\u2026"
+            ]
+          },
+          "icons": [
+            "NEW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cross-cutting / Policy / Risk",
+      "synth": {
+        "bullets": [
+          "Officials reported The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an\u2026",
+          "Field updates show The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from\u2026",
+          "Additional concrete developments were limited in this cycle; watch next updates for confirmed changes."
+        ],
+        "drivers": [],
+        "watch": [
+          "Regulatory deadlines",
+          "Executive decrees",
+          "Sanctions and licensing language"
+        ]
+      },
+      "items": [
+        {
+          "id": "5abe0a62d560",
+          "title": "US sets preliminary duties on solar imports from India, Indonesia and Laos",
+          "url": "https://www.reuters.com/sustainability/climate-energy/us-sets-preliminary-duties-solar-imports-india-indonesia-laos-2026-02-24/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-24",
+          "sourcePublishedAt": "2026-02-24",
+          "sourceTier": "Tier 1",
+          "sector": "Cross-cutting / Policy / Risk",
+          "snippet": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure",
+            "Policy"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around cross-cutting / policy / risk.",
+            "confidence": "HIGH",
+            "evidence": []
+          },
+          "icons": [
+            "TRADE",
+            "NEW"
+          ]
+        },
+        {
+          "id": "1a40803d3d7d",
+          "title": "US to make tariff decision on solar panels from India, Indonesia and Laos",
+          "url": "https://www.reuters.com/sustainability/climate-energy/us-make-tariff-decision-solar-panels-india-indonesia-laos-2026-02-23/",
+          "publisher": "reuters.com",
+          "publishedAt": "2026-02-23",
+          "sourcePublishedAt": "2026-02-23",
+          "sourceTier": "Tier 1",
+          "sector": "Cross-cutting / Policy / Risk",
+          "snippet": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
+          "snippet_status": "",
+          "summary_confidence": "High (Feed snippet)",
+          "event_types": [],
+          "sentiment": "Neutral",
+          "materiality": 2,
+          "risk_score": 30,
+          "entities": [],
+          "tags": [
+            "Infrastructure",
+            "Policy"
+          ],
+          "flags": {
+            "risk": false,
+            "opportunity": false,
+            "new": true,
+            "updated": false
+          },
+          "metrics": {
+            "numbers": []
+          },
+          "preview": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
+          "preview_source": "fallback_summary",
+          "language": "en",
+          "insight2": {
+            "s1": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia",
+            "s2": "The publication adds implementation detail that clarifies pace, constraints, and expected counterpart response.",
+            "s3": "Implication: institutions should re-base short-cycle scenarios because counterpart incentives are shifting around cross-cutting / policy / risk.",
+            "confidence": "HIGH",
+            "evidence": []
+          },
+          "icons": [
+            "TRADE",
+            "NEW"
+          ]
+        }
+      ]
+    }
+  ]
+}

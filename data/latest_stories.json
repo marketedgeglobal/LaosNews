@@ -1,1 +1,140 @@
-[]
+[
+  {
+    "id": "url::https://vientianetimes.org.la/freefreenews/freecontent_038_Laos_y26.php",
+    "title": "Laos, The Asia Foundation partner to strengthen environmental and social impact assessments",
+    "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_038_Laos_y26.php",
+    "source": "vientianetimes.org.la",
+    "source_quality": "Tier 3",
+    "published": "2026-02-23",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Extractives & Mining",
+    "summary": "Ms Phakkavanh Phitsamai ( centre right ) and Ms Khaliungoo Ganbat ( centre left ) stand with Dr Saynakhone Inthavong, Ms Benita Sommerville, and other participants at the MOU signing ceremony in Vientiane on Monday.",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [],
+    "sentiment": "Neutral",
+    "materiality": 1,
+    "risk_score": 15,
+    "entities": [],
+    "tags": []
+  },
+  {
+    "id": "url::https://thestar.com.my/aseanplus/aseanplus-news/2026/03/03/laos-seeks-to-strengthen-sustainable-food-systems",
+    "title": "Laos seeks to strengthen sustainable food systems",
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/03/laos-seeks-to-strengthen-sustainable-food-systems",
+    "source": "thestar.com.my",
+    "source_quality": "Tier 3",
+    "published": "2026-03-03",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Food & Agriculture",
+    "summary": "VIENTIANE: The Lao government, in collaboration with development partners, launched the national action plan on transition toward sustainable food systems transformation (2025-2030) to boost farmers' incomes, nutrition, climate resilience, and sustainable environments for future\u2026",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [
+      "Political transition"
+    ],
+    "sentiment": "Neutral",
+    "materiality": 1,
+    "risk_score": 15,
+    "entities": [],
+    "tags": []
+  },
+  {
+    "id": "url::https://thestar.com.my/aseanplus/aseanplus-news/2026/03/02/laos-prioritises-food-security-and-agricultural-modernisation-for-the-future-of-the-country",
+    "title": "Laos prioritises food security and agricultural modernisation for the future of the country",
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/02/laos-prioritises-food-security-and-agricultural-modernisation-for-the-future-of-the-country",
+    "source": "thestar.com.my",
+    "source_quality": "Tier 3",
+    "published": "2026-03-02",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Food & Agriculture",
+    "summary": "Lao Prime Minister Sonexay Siphandone has called for accelerated efforts to strengthen food security, modernise agricultural production, and improve the management of land, forest, and water resources.",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [
+      "Security"
+    ],
+    "sentiment": "Neutral",
+    "materiality": 2,
+    "risk_score": 40,
+    "entities": [],
+    "tags": []
+  },
+  {
+    "id": "url::https://vientianetimes.org.la/freefreenews/freecontent_041_Abacus_y26.php",
+    "title": "Abacus Capital launches to boost capital market, expand investment opportunities in Laos",
+    "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_041_Abacus_y26.php",
+    "source": "vientianetimes.org.la",
+    "source_quality": "Tier 3",
+    "published": "2026-02-26",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Finance & Investment",
+    "summary": "Deputy Governor of the Bank of the Lao PDR, Soulysak Thamnuvong ( centre ), along with other senior banking officials and company representatives pose for a photo during the official opening ceremony on Friday (February 20) in Vientiane.",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [],
+    "sentiment": "Neutral",
+    "materiality": 2,
+    "risk_score": 30,
+    "entities": [],
+    "tags": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "id": "url::https://eastasiaforum.org/2026/02/18/laoss-year-of-consolidation-and-strategic-balancing",
+    "title": "Laos\u2019s year of consolidation and strategic balancing",
+    "url": "https://eastasiaforum.org/2026/02/18/laoss-year-of-consolidation-and-strategic-balancing/",
+    "source": "eastasiaforum.org",
+    "source_quality": "Tier 3",
+    "published": "2026-02-18",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Finance & Investment",
+    "summary": "Laos\u2019s economic prospects for 2026 are cautiously hopeful but constrained by structural vulnerabilities.",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [],
+    "sentiment": "Neutral",
+    "materiality": 2,
+    "risk_score": 30,
+    "entities": [],
+    "tags": []
+  },
+  {
+    "id": "url::https://reuters.com/sustainability/climate-energy/us-sets-preliminary-duties-solar-imports-india-indonesia-laos-2026-02-24",
+    "title": "US sets preliminary duties on solar imports from India, Indonesia and Laos",
+    "url": "https://www.reuters.com/sustainability/climate-energy/us-sets-preliminary-duties-solar-imports-india-indonesia-laos-2026-02-24/",
+    "source": "reuters.com",
+    "source_quality": "Tier 1",
+    "published": "2026-02-24",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Cross-cutting / Policy / Risk",
+    "summary": "The U.S. Commerce Department on Tuesday announced countervailing duties on solar cells and panels imported by companies in India, Indonesia and Laos in an effort to counteract subsidies supporting the ...",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [],
+    "sentiment": "Neutral",
+    "materiality": 2,
+    "risk_score": 30,
+    "entities": [],
+    "tags": [
+      "Infrastructure",
+      "Policy"
+    ]
+  },
+  {
+    "id": "url::https://reuters.com/sustainability/climate-energy/us-make-tariff-decision-solar-panels-india-indonesia-laos-2026-02-23",
+    "title": "US to make tariff decision on solar panels from India, Indonesia and Laos",
+    "url": "https://www.reuters.com/sustainability/climate-energy/us-make-tariff-decision-solar-panels-india-indonesia-laos-2026-02-23/",
+    "source": "reuters.com",
+    "source_quality": "Tier 1",
+    "published": "2026-02-23",
+    "retrieved": "2026-03-03 19:23 UTC",
+    "sector": "Cross-cutting / Policy / Risk",
+    "summary": "The U.S. Commerce Department on Monday will reveal a preliminary decision on whether to impose anti-subsidy duties on solar cells and panels imported from India, Laos and Indonesia.",
+    "summary_confidence": "High (Feed snippet)",
+    "event_types": [],
+    "sentiment": "Neutral",
+    "materiality": 2,
+    "risk_score": 30,
+    "entities": [],
+    "tags": [
+      "Infrastructure",
+      "Policy"
+    ]
+  }
+]

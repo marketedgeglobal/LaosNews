@@ -1,64 +1,11 @@
 {
   "run_at": "2026-03-03T19:23:22.461900+00:00",
-  "fetched": 2576,
-  "filtered": 43,
-  "deduplicated": 7,
-  "selected": 7,
-  "diff_new": 0,
-  "diff_updated": 0,
-  "diff_dropped": 0,
   "trend_summary": {
     "freq_7d": 7.0,
     "intensity_30d": "\u2192 Stable",
     "direction_90d": "\u2192 Stable"
   },
   "sanctions_index": 0,
-  "macro_indicators": [
-    {
-      "name": "GDP growth estimate",
-      "value": "N/A",
-      "trend": "Weekly refresh pending",
-      "risk_flag": "Yellow",
-      "series": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Inflation rate",
-      "value": "N/A",
-      "trend": "Weekly refresh pending",
-      "risk_flag": "Yellow",
-      "series": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Oil production (bpd)",
-      "value": "N/A",
-      "trend": "Weekly refresh pending",
-      "risk_flag": "Yellow",
-      "series": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "FX official vs parallel",
-      "value": "N/A",
-      "trend": "Weekly refresh pending",
-      "risk_flag": "Yellow",
-      "series": [
-        0,
-        0,
-        0
-      ]
-    }
-  ],
   "sector_briefs": {
     "Extractives": {
       "health": 8,
@@ -169,17 +116,5 @@
         "Operational updates from Tier 1 and Tier 2 sources"
       ]
     }
-  },
-  "timeline_rows": [
-    {
-      "date": "2026-03-03",
-      "signals_count": 7,
-      "sanctions_count": 0,
-      "oil_count": 0,
-      "risk_avg": 27.14
-    }
-  ],
-  "output_file": "/workspaces/LaosNews/docs/index.md",
-  "metadata_file": "/workspaces/LaosNews/data/last_run.json",
-  "docs_data_dir": "/workspaces/LaosNews/docs/data"
+  }
 }

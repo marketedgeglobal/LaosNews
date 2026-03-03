@@ -1,0 +1,15 @@
+{
+  "run_at": "2026-03-03T19:23:22.461900+00:00",
+  "alerts": [
+    {
+      "type": "Executive decree",
+      "triggered": true,
+      "detail": "1 governance/decree-related signals detected."
+    },
+    {
+      "type": "Protest escalation",
+      "triggered": true,
+      "detail": "1 security/protest indicators detected."
+    }
+  ]
+}

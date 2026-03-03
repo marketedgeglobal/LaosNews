@@ -684,7 +684,7 @@ def passes_country_filter(entry: dict, country_terms: list[str], geo_terms: list
         return True
 
     source = (entry.get("source_url", "") or "").lower()
-    return "venezuela" in source or "venezuelan" in source
+    return "laos" in source or "lao" in source
 
 
 def _title_mentions_venezuela(title: str) -> bool:
@@ -693,7 +693,7 @@ def _title_mentions_venezuela(title: str) -> bool:
         return False
     return bool(
         re.search(
-            r"\b(?:venezuela|venezuelan|venezolano(?:s)?|venezolana(?:s)?)\b",
+            r"\b(?:laos|lao|lao\s+pdr|lao\s+people'?s\s+democratic\s+republic|vientiane|luang\s+prabang|pakse|savannakhet|champasak|attapeu|mekong)\b",
             value,
             flags=re.IGNORECASE,
         )
