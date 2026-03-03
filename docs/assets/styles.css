@@ -228,7 +228,8 @@ a:hover {
     }
 }
 
-.imf-card .card-head {
+.imf-card .card-head,
+.bynum-card .card-head {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -237,6 +238,7 @@ a:hover {
 }
 
 .imf-card .meta,
+.bynum-card .meta,
 .small-link {
     font-size: 12px;
     color: var(--me-muted, #4b5563);

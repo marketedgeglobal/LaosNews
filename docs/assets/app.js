@@ -71,18 +71,6 @@
         return hasDate || hasLongSlug || hasGoodPrefix;
     }
 
-    function renderLanguageSwitcher(activeLanguage) {
-        return `
-            <section class="panel language-panel">
-                <p class="language-note">Filter by original source language (not translation). English and Español show different source articles.</p>
-                <div class="language-switch" role="group" aria-label="Language filter">
-                    <button class="lang-btn ${activeLanguage === 'en' ? 'active' : ''}" data-lang="en" type="button">English</button>
-                    <button class="lang-btn ${activeLanguage === 'es' ? 'active' : ''}" data-lang="es" type="button">Español</button>
-                </div>
-            </section>
-        `;
-    }
-
     async function loadIMF() {
         try {
             return await loadJson('data/imf_lao.json');
@@ -156,6 +144,61 @@
         `;
     }
 
+    function formatByNumber(value, unit) {
+        if (value === null || value === undefined || Number.isNaN(Number(value))) return '—';
+        const numeric = Number(value);
+        const abs = Math.abs(numeric);
+        const normalizedUnit = String(unit || '').toLowerCase();
+
+        if (normalizedUnit.includes('percent') || normalizedUnit === '%') {
+            return `${numeric.toFixed(2)}%`;
+        }
+
+        if (normalizedUnit.includes('usd')) {
+            if (abs >= 1e12) return `$${(numeric / 1e12).toFixed(2)}T`;
+            if (abs >= 1e9) return `$${(numeric / 1e9).toFixed(2)}B`;
+            if (abs >= 1e6) return `$${(numeric / 1e6).toFixed(2)}M`;
+            return `$${numeric.toLocaleString('en-US', { maximumFractionDigits: 0 })}`;
+        }
+
+        return numeric.toLocaleString('en-US', {
+            maximumFractionDigits: abs >= 100 ? 0 : 2
+        });
+    }
+
+    function renderByNumbersCard(byNumbers) {
+        const indicators = (byNumbers && Array.isArray(byNumbers.indicators)) ? byNumbers.indicators : [];
+        if (!indicators.length) return '';
+        const tiles = indicators.map((indicator) => `
+            <div class="metric-tile">
+                <div class="metric-top">
+                    <div class="metric-label">${esc(indicator.label || 'Indicator')}</div>
+                    <div class="metric-year">${esc(String(indicator.year || ''))}</div>
+                </div>
+                <div class="metric-value">${esc(formatByNumber(indicator.value, indicator.unit || ''))}</div>
+                <div class="metric-bottom">
+                    <div class="metric-delta">${esc(indicator.seriesCode || '')}</div>
+                </div>
+            </div>
+        `).join('');
+
+        const asOf = typeof byNumbers.asOf === 'string' && byNumbers.asOf.length >= 10 ? byNumbers.asOf.slice(0, 10) : '—';
+        const sourceUrl = byNumbers && byNumbers.sourceUrl ? byNumbers.sourceUrl : 'https://data360.worldbank.org/en/economy/LAO#featuredIndicators';
+
+        return `
+            <section class="panel bynum-card">
+                <div class="card-head">
+                    <div>
+                        <h3>By the Numbers (Laos)</h3>
+                        <div class="meta">Source updated: ${esc(asOf)}</div>
+                    </div>
+                    <a class="small-link" href="${esc(sourceUrl)}" target="_blank" rel="noopener">Open World Bank Data360</a>
+                </div>
+                <div class="metric-grid">${tiles}</div>
+            </section>
+        `;
+    }
+
     function renderItem(item) {
         const preview = normalizePreview(item.preview || '');
         if (preview.length < 60) return '';
@@ -174,18 +217,41 @@
         `;
     }
 
-    function renderSectors(latest, activeLanguage, rejectedRuntime) {
+    function canonicalKey(item) {
+        const rawUrl = String((item && item.url) || '').trim();
+        if (rawUrl) {
+            try {
+                const parsed = new URL(rawUrl);
+                const host = parsed.hostname.replace(/^www\./, '').toLowerCase();
+                const path = (parsed.pathname || '/').replace(/\/+$/, '').toLowerCase() || '/';
+                return `${host}${path}`;
+            } catch {
+                return rawUrl.toLowerCase();
+            }
+        }
+        const title = String((item && item.title) || '').trim().toLowerCase();
+        return `title:${title}`;
+    }
+
+    function renderSectors(latest, rejectedRuntime) {
+        const seen = new Set();
         return (latest.sectors || []).map((sector) => {
             const renderedItems = (sector.items || [])
                 .filter((item) => {
-                    if (detectLanguage(item) !== activeLanguage) {
-                        rejectedRuntime.push({ reason: 'wrong_language', title: item.title || '', finalUrl: item.url || '' });
+                    if (detectLanguage(item) !== 'en') {
+                        rejectedRuntime.push({ reason: 'non_english', title: item.title || '', finalUrl: item.url || '' });
                         return false;
                     }
                     if (!isArticleUrl(item.url || '')) {
                         rejectedRuntime.push({ reason: 'url_not_article_runtime', title: item.title || '', finalUrl: item.url || '' });
                         return false;
                     }
+                    const dedupeKey = canonicalKey(item);
+                    if (seen.has(dedupeKey)) {
+                        rejectedRuntime.push({ reason: 'duplicate_article_runtime', title: item.title || '', finalUrl: item.url || '' });
+                        return false;
+                    }
+                    seen.add(dedupeKey);
                     return true;
                 })
                 .map(renderItem)
@@ -263,41 +329,6 @@
         }
     }
 
-    async function loadExecBrief() {
-        try {
-            return await loadJson('data/exec_brief.json');
-        } catch {
-            return null;
-        }
-    }
-
-    function renderExecBriefCard(brief) {
-        const rows = (brief && Array.isArray(brief.rows)) ? brief.rows.slice(0, 3) : [];
-        const body = rows.length
-            ? `<div class="exec-rows">
-                ${rows.map((row) => `
-                    <div class="exec-row">
-                        <div class="exec-subheading">${esc(row.subheading || '')}</div>
-                        <div class="exec-sentence">${esc(row.sentence || '')}</div>
-                    </div>
-                `).join('')}
-              </div>`
-            : '<div class="exec-empty">No executive brief available today.</div>';
-        const date = (brief && brief.asOf) ? String(brief.asOf).slice(0, 10) : '';
-
-        return `
-            <section class="panel exec-card" id="exec-brief">
-                <div class="exec-head">
-                    <div>
-                        <h3>${esc((brief && brief.title) || 'Executive Rapid Brief')}</h3>
-                    </div>
-                    <div class="exec-date">${esc(date)}</div>
-                </div>
-                ${body}
-            </section>
-        `;
-    }
-
     function renderPdfPubsCard(pubs) {
         const list = (pubs && Array.isArray(pubs.publications)) ? pubs.publications : [];
         const periodLabel = (pubs && pubs.yearLabel) ? pubs.yearLabel : 'Last 3 Years';
@@ -373,13 +404,13 @@
         const root = document.getElementById('app-root');
         if (!root) return;
         try {
-            const [latest, macros, imf, pdfPubs, bd, execBrief] = await Promise.all([
+            const [latest, macros, imf, pdfPubs, bd, byNumbers] = await Promise.all([
                 loadJson('data/latest.json'),
                 loadJson('data/macros.json'),
                 loadIMF(),
                 SHOW_PUBLICATIONS_CARD ? loadPdfPubs2Y() : Promise.resolve(null),
                 loadBdOpps(),
-                loadExecBrief()
+                loadJson('data/by_numbers.json').catch(() => null)
             ]);
             const debugMode = new URLSearchParams(window.location.search).get('debug') === '1';
             let rejectedBuild = [];
@@ -391,38 +422,19 @@
                 }
             }
 
-            let activeLanguage = 'en';
-            const languageCounts = (latest.sectors || []).flatMap((sector) => (sector.items || []))
-                .reduce((acc, item) => {
-                    const lang = detectLanguage(item);
-                    if (lang === 'en' || lang === 'es') acc[lang] += 1;
-                    return acc;
-                }, { en: 0, es: 0 });
-
             const render = () => {
                 const rejectedRuntime = [];
-                const sectorsHtml = renderSectors(latest, activeLanguage, rejectedRuntime);
+                const sectorsHtml = renderSectors(latest, rejectedRuntime);
                 root.innerHTML = `
-                    ${renderExecBriefCard(execBrief)}
-                    ${renderLanguageSwitcher(activeLanguage)}
+                    ${renderByNumbersCard(byNumbers)}
                     ${renderIMFCard(imf)}
-                    ${sectorsHtml || '<section class="panel"><p>No article previews available for the selected language.</p></section>'}
+                    ${sectorsHtml || '<section class="panel"><p>No article previews available.</p></section>'}
                     ${renderMacros(macros)}
                     ${SHOW_PUBLICATIONS_CARD ? renderPdfPubsCard(pdfPubs) : ''}
                     ${renderBdOppsCard(bd)}
                     ${debugMode ? renderRejectedDebug(rejectedRuntime, rejectedBuild) : ''}
                 `;
             };
-
-            root.addEventListener('click', (event) => {
-                const target = event.target;
-                if (!(target instanceof HTMLElement)) return;
-                if (!target.classList.contains('lang-btn')) return;
-                const selected = target.getAttribute('data-lang');
-                if (!selected || (selected !== 'en' && selected !== 'es') || selected === activeLanguage) return;
-                activeLanguage = selected;
-                render();
-            });
 
             render();
         } catch (error) {

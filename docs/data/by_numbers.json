@@ -1,0 +1,36 @@
+{
+  "source": "World Bank Data360 / World Development Indicators",
+  "sourceUrl": "https://data360.worldbank.org/en/economy/LAO#featuredIndicators",
+  "country": "LAO",
+  "asOf": "2026-03-03T23:05:00Z",
+  "indicators": [
+    {
+      "label": "Population",
+      "seriesCode": "SP.POP.TOTL",
+      "unit": "people",
+      "year": 2024,
+      "value": 7769819
+    },
+    {
+      "label": "GDP (current US$)",
+      "seriesCode": "NY.GDP.MKTP.CD",
+      "unit": "USD",
+      "year": 2024,
+      "value": 16502933121.3379
+    },
+    {
+      "label": "GDP growth (annual %)",
+      "seriesCode": "NY.GDP.MKTP.KD.ZG",
+      "unit": "percent",
+      "year": 2024,
+      "value": 4.13019264436937
+    },
+    {
+      "label": "Inflation, consumer prices (annual %)",
+      "seriesCode": "FP.CPI.TOTL.ZG",
+      "unit": "percent",
+      "year": 2024,
+      "value": 23.1305695942588
+    }
+  ]
+}
