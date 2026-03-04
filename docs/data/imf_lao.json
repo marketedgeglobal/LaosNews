@@ -1,0 +1,696 @@
+{
+  "source": "IMF DataMapper API",
+  "country": "LAO",
+  "asOf": "2026-03-04T10:57:13.497Z",
+  "metrics": [
+    {
+      "code": "NGDP_RPCH",
+      "label": "Real GDP growth",
+      "unit": "Annual percent change",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": 8
+        },
+        {
+          "year": 2012,
+          "value": 7.8
+        },
+        {
+          "year": 2013,
+          "value": 8
+        },
+        {
+          "year": 2014,
+          "value": 7.6
+        },
+        {
+          "year": 2015,
+          "value": 7.3
+        },
+        {
+          "year": 2016,
+          "value": 7
+        },
+        {
+          "year": 2017,
+          "value": 6.9
+        },
+        {
+          "year": 2018,
+          "value": 6.2
+        },
+        {
+          "year": 2019,
+          "value": 4.7
+        },
+        {
+          "year": 2020,
+          "value": -0.4
+        },
+        {
+          "year": 2021,
+          "value": 2.1
+        },
+        {
+          "year": 2022,
+          "value": 2.3
+        },
+        {
+          "year": 2023,
+          "value": 3.7
+        },
+        {
+          "year": 2024,
+          "value": 4.3
+        },
+        {
+          "year": 2025,
+          "value": 3.5
+        },
+        {
+          "year": 2026,
+          "value": 2.5
+        },
+        {
+          "year": 2027,
+          "value": 2.5
+        },
+        {
+          "year": 2028,
+          "value": 2.5
+        },
+        {
+          "year": 2029,
+          "value": 2.5
+        },
+        {
+          "year": 2030,
+          "value": 2.5
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 2.5
+      },
+      "prior": {
+        "year": 2029,
+        "value": 2.5
+      },
+      "delta": 0
+    },
+    {
+      "code": "NGDPD",
+      "label": "GDP, current prices",
+      "unit": "Billions of U.S. dollars",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": 8.964
+        },
+        {
+          "year": 2012,
+          "value": 10.194
+        },
+        {
+          "year": 2013,
+          "value": 11.972
+        },
+        {
+          "year": 2014,
+          "value": 13.266
+        },
+        {
+          "year": 2015,
+          "value": 14.418
+        },
+        {
+          "year": 2016,
+          "value": 15.904
+        },
+        {
+          "year": 2017,
+          "value": 17.055
+        },
+        {
+          "year": 2018,
+          "value": 18.131
+        },
+        {
+          "year": 2019,
+          "value": 18.77
+        },
+        {
+          "year": 2020,
+          "value": 18.511
+        },
+        {
+          "year": 2021,
+          "value": 18.533
+        },
+        {
+          "year": 2022,
+          "value": 15.121
+        },
+        {
+          "year": 2023,
+          "value": 15.011
+        },
+        {
+          "year": 2024,
+          "value": 15.908
+        },
+        {
+          "year": 2025,
+          "value": 16.934
+        },
+        {
+          "year": 2026,
+          "value": 17.781
+        },
+        {
+          "year": 2027,
+          "value": 18.613
+        },
+        {
+          "year": 2028,
+          "value": 19.471
+        },
+        {
+          "year": 2029,
+          "value": 20.387
+        },
+        {
+          "year": 2030,
+          "value": 21.343
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 21.343
+      },
+      "prior": {
+        "year": 2029,
+        "value": 20.387
+      },
+      "delta": 0.9559999999999995
+    },
+    {
+      "code": "NGDPDPC",
+      "label": "GDP per capita, current prices\n",
+      "unit": "U.S. dollars per capita",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": 1397.003
+        },
+        {
+          "year": 2012,
+          "value": 1566.197
+        },
+        {
+          "year": 2013,
+          "value": 1813.802
+        },
+        {
+          "year": 2014,
+          "value": 1982.523
+        },
+        {
+          "year": 2015,
+          "value": 2124.256
+        },
+        {
+          "year": 2016,
+          "value": 2307.838
+        },
+        {
+          "year": 2017,
+          "value": 2437.127
+        },
+        {
+          "year": 2018,
+          "value": 2551.83
+        },
+        {
+          "year": 2019,
+          "value": 2602.623
+        },
+        {
+          "year": 2020,
+          "value": 2528.997
+        },
+        {
+          "year": 2021,
+          "value": 2495.962
+        },
+        {
+          "year": 2022,
+          "value": 2022.383
+        },
+        {
+          "year": 2023,
+          "value": 1979.79
+        },
+        {
+          "year": 2024,
+          "value": 2069.915
+        },
+        {
+          "year": 2025,
+          "value": 2174.391
+        },
+        {
+          "year": 2026,
+          "value": 2253.934
+        },
+        {
+          "year": 2027,
+          "value": 2330.076
+        },
+        {
+          "year": 2028,
+          "value": 2408.08
+        },
+        {
+          "year": 2029,
+          "value": 2491.784
+        },
+        {
+          "year": 2030,
+          "value": 2579.077
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 2579.077
+      },
+      "prior": {
+        "year": 2029,
+        "value": 2491.784
+      },
+      "delta": 87.29300000000012
+    },
+    {
+      "code": "PCPIPCH",
+      "label": "Inflation rate, average consumer prices",
+      "unit": "Annual percent change",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": 7.6
+        },
+        {
+          "year": 2012,
+          "value": 4.3
+        },
+        {
+          "year": 2013,
+          "value": 6.4
+        },
+        {
+          "year": 2014,
+          "value": 4.1
+        },
+        {
+          "year": 2015,
+          "value": 1.3
+        },
+        {
+          "year": 2016,
+          "value": 1.6
+        },
+        {
+          "year": 2017,
+          "value": 0.8
+        },
+        {
+          "year": 2018,
+          "value": 2
+        },
+        {
+          "year": 2019,
+          "value": 3.3
+        },
+        {
+          "year": 2020,
+          "value": 5.1
+        },
+        {
+          "year": 2021,
+          "value": 3.8
+        },
+        {
+          "year": 2022,
+          "value": 23
+        },
+        {
+          "year": 2023,
+          "value": 31.2
+        },
+        {
+          "year": 2024,
+          "value": 23.1
+        },
+        {
+          "year": 2025,
+          "value": 7.8
+        },
+        {
+          "year": 2026,
+          "value": 5.5
+        },
+        {
+          "year": 2027,
+          "value": 6.4
+        },
+        {
+          "year": 2028,
+          "value": 7
+        },
+        {
+          "year": 2029,
+          "value": 8.3
+        },
+        {
+          "year": 2030,
+          "value": 9.9
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 9.9
+      },
+      "prior": {
+        "year": 2029,
+        "value": 8.3
+      },
+      "delta": 1.5999999999999996
+    },
+    {
+      "code": "LUR",
+      "label": "Unemployment rate",
+      "unit": "Percent",
+      "dataset": "WEO",
+      "series": [],
+      "latest": null,
+      "prior": null,
+      "delta": null
+    },
+    {
+      "code": "BCA_NGDPD",
+      "label": "Current account balance, percent of GDP",
+      "unit": "Percent of GDP",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": -15.3
+        },
+        {
+          "year": 2012,
+          "value": -7.3
+        },
+        {
+          "year": 2013,
+          "value": -7.8
+        },
+        {
+          "year": 2014,
+          "value": -14.5
+        },
+        {
+          "year": 2015,
+          "value": -15.7
+        },
+        {
+          "year": 2016,
+          "value": -8.7
+        },
+        {
+          "year": 2017,
+          "value": -7.4
+        },
+        {
+          "year": 2018,
+          "value": -9.1
+        },
+        {
+          "year": 2019,
+          "value": -7
+        },
+        {
+          "year": 2020,
+          "value": -1.6
+        },
+        {
+          "year": 2021,
+          "value": 2.3
+        },
+        {
+          "year": 2022,
+          "value": -3
+        },
+        {
+          "year": 2023,
+          "value": 2.7
+        },
+        {
+          "year": 2024,
+          "value": 3.3
+        },
+        {
+          "year": 2025,
+          "value": 5.3
+        },
+        {
+          "year": 2026,
+          "value": 2.7
+        },
+        {
+          "year": 2027,
+          "value": 1.3
+        },
+        {
+          "year": 2028,
+          "value": 0.9
+        },
+        {
+          "year": 2029,
+          "value": 0.5
+        },
+        {
+          "year": 2030,
+          "value": 0.1
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 0.1
+      },
+      "prior": {
+        "year": 2029,
+        "value": 0.5
+      },
+      "delta": -0.4
+    },
+    {
+      "code": "GGXCNL_NGDP",
+      "label": "General government net lending/borrowing",
+      "unit": "Percent of GDP",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": -1.4
+        },
+        {
+          "year": 2012,
+          "value": -2.3
+        },
+        {
+          "year": 2013,
+          "value": -4
+        },
+        {
+          "year": 2014,
+          "value": -3.1
+        },
+        {
+          "year": 2015,
+          "value": -5.6
+        },
+        {
+          "year": 2016,
+          "value": -5.1
+        },
+        {
+          "year": 2017,
+          "value": -5.5
+        },
+        {
+          "year": 2018,
+          "value": -4.5
+        },
+        {
+          "year": 2019,
+          "value": -3.2
+        },
+        {
+          "year": 2020,
+          "value": -5.4
+        },
+        {
+          "year": 2021,
+          "value": -0.7
+        },
+        {
+          "year": 2022,
+          "value": 0.1
+        },
+        {
+          "year": 2023,
+          "value": 0
+        },
+        {
+          "year": 2024,
+          "value": 2.3
+        },
+        {
+          "year": 2025,
+          "value": 0.4
+        },
+        {
+          "year": 2026,
+          "value": 1.6
+        },
+        {
+          "year": 2027,
+          "value": 1.4
+        },
+        {
+          "year": 2028,
+          "value": 1.2
+        },
+        {
+          "year": 2029,
+          "value": 1
+        },
+        {
+          "year": 2030,
+          "value": 0.9
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 0.9
+      },
+      "prior": {
+        "year": 2029,
+        "value": 1
+      },
+      "delta": -0.09999999999999998
+    },
+    {
+      "code": "GGXWDG_NGDP",
+      "label": "General government gross debt",
+      "unit": "Percent of GDP",
+      "dataset": "WEO",
+      "series": [
+        {
+          "year": 2011,
+          "value": 43
+        },
+        {
+          "year": 2012,
+          "value": 46.1
+        },
+        {
+          "year": 2013,
+          "value": 49.5
+        },
+        {
+          "year": 2014,
+          "value": 53.5
+        },
+        {
+          "year": 2015,
+          "value": 53.1
+        },
+        {
+          "year": 2016,
+          "value": 54.5
+        },
+        {
+          "year": 2017,
+          "value": 57.2
+        },
+        {
+          "year": 2018,
+          "value": 60.6
+        },
+        {
+          "year": 2019,
+          "value": 69.1
+        },
+        {
+          "year": 2020,
+          "value": 76
+        },
+        {
+          "year": 2021,
+          "value": 92.9
+        },
+        {
+          "year": 2022,
+          "value": 130.7
+        },
+        {
+          "year": 2023,
+          "value": 116.5
+        },
+        {
+          "year": 2024,
+          "value": 100.5
+        },
+        {
+          "year": 2025,
+          "value": 90.7
+        },
+        {
+          "year": 2026,
+          "value": 84.7
+        },
+        {
+          "year": 2027,
+          "value": 79.2
+        },
+        {
+          "year": 2028,
+          "value": 74.2
+        },
+        {
+          "year": 2029,
+          "value": 69.6
+        },
+        {
+          "year": 2030,
+          "value": 65.4
+        }
+      ],
+      "latest": {
+        "year": 2030,
+        "value": 65.4
+      },
+      "prior": {
+        "year": 2029,
+        "value": 69.6
+      },
+      "delta": -4.199999999999989
+    }
+  ]
+}
